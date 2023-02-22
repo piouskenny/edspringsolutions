@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav_bar {
+    width: 97%;
+}
+
+/* Mobile Menu and Her0 Section */
+@media (max-width:600px) {
+    #menu {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    #hero {
+        background-image: url(../src/assets/img/image-web-3-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .nav_bar {
+        width: 100%;
+    }
+}

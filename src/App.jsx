@@ -1,17 +1,16 @@
-import Hero from './components/hero'
-import About from './components/about'
-import Services from './components/services'
-import Focus from './components/focusareas'
+import Hero from "./components/hero";
+import About from "./components/about";
+import Services from "./components/services";
+
 
 function App() {
   return (
     <>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Focus/>
+      <Hero />
+      <About />
+      <Services />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
