@@ -14,12 +14,12 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:grid md:grid-cols-2 md:mt-6 md:mb-6">
+        <div className="md:grid md:grid-cols-2 ">
           <div className="md:col-span-1">
-            <img src="" alt="Image PlaceHolder" />
+            <img src="https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-9336.jpg?w=740&t=st=1677107782~exp=1677108382~hmac=281c074b11e168b7e15b3b8613bc9ac6cdc4f93c480d29ff93fc1b5b6871e5ea" alt="Image PlaceHolder" />
           </div>
-          <div className="md:col-span-1">
-            <h2 className="text-gray-800 font-bold text-lg">History</h2>
+          <div className="md:col-span-1 md:mt-40">
+            <h2 className="text-gray-800 font-bold text-lg"></h2>
             <p className="md:text-md text-gray-600 mt-1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
               soluta saepe nulla quae, repellat officiis perspiciatis dolorum
