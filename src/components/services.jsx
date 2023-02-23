@@ -26,8 +26,7 @@ const Services = () => {
                 </svg>
               </div>
 
-              <h1 className="md:py-2">Dolor</h1>
-              <p className="text-gray-300">Lorem ipsum dolor sit.</p>
+              <h1 className="md:py-2">Capacity Building</h1>
             </div>
           </div>
           <div className="col-span-1 text-center bg-blue-700 rounded-md md:rounded-xl mx-6 md:mx-0 my-4 md:my-0">
@@ -48,8 +47,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h1 className="md:py-2">Dolor</h1>
-              <p className="text-gray-300">Lorem ipsum dolor sit.</p>
+              <h1 className="md:py-2">System & Program Planning</h1>
             </div>
           </div>
           <div className="text-center col-span-1 bg-blue-700 rounded-md md:rounded-xl mx-6 md:mx-0 my-4 md:my-0">
@@ -70,8 +68,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h1 className="md:py-2">Dolor</h1>
-              <p className="text-gray-300">Lorem ipsum dolor sit.</p>
+              <h1 className="md:py-2">Special Education Advocacy for Families</h1>
             </div>
           </div>
           <div className="text-center col-span-1 bg-blue-700 rounded-md md:rounded-xl mx-6 md:mx-0 my-4 md:my-0">
@@ -92,8 +89,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h1 className="md:py-2">Dolor</h1>
-              <p className="text-gray-300">Lorem ipsum dolor sit.</p>
+              <h1 className="md:py-2">Special Education and Section 504 Compliance </h1>
             </div>
           </div>
         </div>

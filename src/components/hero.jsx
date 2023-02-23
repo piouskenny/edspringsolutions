@@ -12,7 +12,7 @@ const Hero = () => {
             <p className="text-gray-400 md:mt-6 mt-4 text-md">Lorem ipsum dolor sit amet velit illum asperiores mollitia odit eligendi.</p>
 
             <a href="#">
-                <button className="bg-blue-400 px-4 mt-6 py-2 rounded-lg md:rounded-full hover:bg-white hover:text-blue-400">Contact Us &rarr;</button>
+                <button className="bg-blue-600 px-4 mt-6 py-2 rounded-lg md:rounded-full hover:bg-white hover:text-blue-400">Contact Us &rarr;</button>
             </a>
         </div>
         <div className="md:col-span-1">

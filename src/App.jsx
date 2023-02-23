@@ -1,5 +1,6 @@
 import Hero from "./components/hero";
 import About from "./components/about";
+import Founder from './components/founder';
 import Services from "./components/services";
 import Insight from "./components/insights";
 import Partners from "./components/partners"
@@ -12,6 +13,7 @@ function App() {
     <>
       <Hero />
       <About/>
+      <Founder/>
       <Services />
       <Insight />
       <Partners/>
