@@ -1,4 +1,7 @@
+import Logo from '../assets/logo_.png'
 import { useState } from "react";
+
+
 const Navbar = () => {
   const [navbtn, setNavbtn] = useState(false);
 
@@ -14,11 +17,11 @@ const Navbar = () => {
   }
 
   return (
-    <div class="nav_bar text-right mx-0 md:flex md:justify-between md:mx-6 md:my-2  md:relative fixed z-0 bg-white">
+    <div class="nav_bar text-right mx-0 md:flex md:justify-between md:items-center md:mx-6 md:my-0  md:relative fixed z-0 bg-white">
       <div class="flex justify-between items-center">
         <h1 class="font-bold uppercase p-4">
           <a href="#" class="text-gray-700">
-            Ed Spring Solution
+            <img src={Logo} alt="Site Logo" className='h-12 w-16 md:h-16 md:w-20' />
           </a>
         </h1>
 
