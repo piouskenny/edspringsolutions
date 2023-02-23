@@ -3,7 +3,7 @@ const Insight = () => {
     <>
       <section
         id="about"
-        className="bg-gray-200  text-white md:mt-6 md:px-32 px-10 py-6"
+        className="bg-gray-200  text-white  md:px-32 px-10 py-6"
       >
         <div className="md:mx-40">
           <h1 className="text-2xl text-center text-gray-800 font-semibold mb-6">

@@ -2,19 +2,19 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Services from "./components/services";
 import Insight from "./components/insights";
+import ContactUs from "./components/contactUs"
 import Footer from "./components/footer";
-import ContactUs from './components/contactUs'
+
 
 function App() {
   return (
     <>
       <Hero />
-      <About />
+      <About/>
       <Services />
       <Insight />
-      <Partners />
       <ContactUs />
-      <Footer />
+      <Footer/>
     </>
   );
 }
