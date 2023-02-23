@@ -3,6 +3,7 @@ import About from "./components/about";
 import Services from "./components/services";
 import Insight from "./components/insights";
 import Footer from "./components/footer";
+import ContactUs from './components/contactUs'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <Insight />
       <Partners />
+      <ContactUs />
       <Footer />
     </>
   );
