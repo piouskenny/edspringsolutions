@@ -1,48 +1,44 @@
-import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
-import React, { useRef } from 'react';
+// import React, { useState, useRef } from "react";
+// import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleNameChange = (e) => {
-    setName(e.target.value);
-  };
+  // const handleNameChange = (e) => {
+  //   setName(e.target.value);
+  // };
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  // const handleEmailChange = (e) => {
+  //   setEmail(e.target.value);
+  // };
 
-  const handleMessageChange = (e) => {
-    setMessage(e.target.value);
-  };
+  // const handleMessageChange = (e) => {
+  //   setMessage(e.target.value);
+  // };
 
-  const form = useRef();
+  // const form = useRef();
 
-  const handleSubmit = (e) => {
-    console.log(data);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    e.preventDefault();
-
-
-    emailjs
-      .sendForm(
-        "service_oulbj9u",
-        "template_btrlqfg",
-        form.current,
-        "gaFe6kiCuY4rt3oxD"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_oulbj9u",
+  //       "template_btrlqfg",
+  //       form.current,
+  //       "gaFe6kiCuY4rt3oxD"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <div className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10 shadow-gray-900 shadow-2xl py-6 md:py-12">
@@ -51,7 +47,9 @@ const ContactUs = () => {
           Contact Us
         </h2>
 
-        <form onSubmit={handleSubmit} className="mt-6">
+        <form
+        //  onSubmit={handleSubmit}
+          className="mt-6">
           <div>
             <label
               htmlFor="name"
@@ -64,8 +62,8 @@ const ContactUs = () => {
                 type="text"
                 name="user_name"
                 id="name"
-                value={name}
-                onChange={handleNameChange}
+                // value={name}
+                // onChange={handleNameChange}
                 className="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                 placeholder="Enter your name"
               />
@@ -83,8 +81,8 @@ const ContactUs = () => {
                 type="email"
                 name="user_email"
                 id="email"
-                value={email}
-                onChange={handleEmailChange}
+                // value={email}
+                // onChange={handleEmailChange}
                 className="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                 placeholder="Enter your email"
               />
@@ -102,8 +100,8 @@ const ContactUs = () => {
                 name="message"
                 id="message"
                 rows="5"
-                value={message}
-                onChange={handleMessageChange}
+                // value={message}
+                // onChange={handleMessageChange}
                 className="py-3 px-4 block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md"
                 placeholder="Enter your message"
               ></textarea>
@@ -111,7 +109,7 @@ const ContactUs = () => {
           </div>
           <div className="mt-6 text-center mb-6">
             <button
-              onClick={handleSubmit}
+              // onClick={handleSubmit}
               type="submit"
               className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-blue-900 text-white my-6"
             >
