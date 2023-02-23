@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -18,20 +19,19 @@ const ContactUs = () => {
     setMessage(e.target.value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const data = {
-      name,
-      email,
-      message,
-    };
+  const form = useRef();
 
-    // Using EmailJS to send email
+  const handleSubmit = (e) => {
+    console.log(data);
+
+    e.preventDefault();
+
+
     emailjs
       .sendForm(
         "service_oulbj9u",
         "template_btrlqfg",
-        data,
+        form.current,
         "gaFe6kiCuY4rt3oxD"
       )
       .then(
@@ -62,7 +62,7 @@ const ContactUs = () => {
             <div className="mt-1">
               <input
                 type="text"
-                name="name"
+                name="user_name"
                 id="name"
                 value={name}
                 onChange={handleNameChange}
@@ -81,7 +81,7 @@ const ContactUs = () => {
             <div className="mt-1">
               <input
                 type="email"
-                name="email"
+                name="user_email"
                 id="email"
                 value={email}
                 onChange={handleEmailChange}

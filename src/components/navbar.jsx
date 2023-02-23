@@ -17,29 +17,29 @@ const Navbar = () => {
   }
 
   return (
-    <div class="nav_bar text-right mx-0 md:flex md:justify-between md:items-center md:mx-6 md:my-0  md:relative fixed z-0 bg-white">
-      <div class="flex justify-between items-center">
-        <h1 class="font-bold uppercase p-4">
-          <a href="#" class="text-gray-700">
+    <div className="nav_bar text-right mx-0 md:flex md:justify-between md:items-center md:mx-6 md:my-0  md:relative fixed z-0 bg-white">
+      <div className="flex justify-between items-center">
+        <h1 className="font-bold uppercase p-4">
+          <a href="#" className="text-gray-700">
             <img src={Logo} alt="Site Logo" className='h-12 w-16 md:h-16 md:w-20' />
           </a>
         </h1>
 
         <div
-          class="px-4 cursor-pointer md:hidden"
+          className="px-4 cursor-pointer md:hidden"
           id="burger"
           onClick={btnchange}
         >
           <div onClick={()=> setNavbtn(current => !current)}>
             {!navbtn ? (
               <svg
-                class="w-6"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6"
+                
               >
                 <path
                   strokeLinecap="round"
@@ -48,7 +48,7 @@ const Navbar = () => {
                 />
               </svg>
             ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" className="w-6 h-6"/>
                 </svg>
 
