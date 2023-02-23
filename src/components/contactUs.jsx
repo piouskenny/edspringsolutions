@@ -41,9 +41,9 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10">
-      <div className="max-w-3xl mx-auto shadow-lg">
-        <h2 className="text-3xl font-extrabold tracking-tight text-blue-900 sm:text-4xl text-center">
+    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10 shadow-gray-900 shadow-2xl">
+      <div className="max-w-3xl mx-auto ">
+        <h2 className="text-xl font-extrabold tracking-tight text-blue-900 sm:text-4xl text-center">
           Contact Us
         </h2>
 
@@ -105,10 +105,10 @@ const ContactUs = () => {
               ></textarea>
             </div>
           </div>
-          <div className="mt-6">
+          <div className="mt-6 text-center mb-6">
             <button
               type="submit"
-              className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-blue-500"
+              className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-blue-900 text-white"
             >
               Contact US
             </button>
