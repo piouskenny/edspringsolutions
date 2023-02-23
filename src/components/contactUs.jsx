@@ -63,7 +63,7 @@ const ContactUs = () => {
             <button
               // onClick={handleSubmit}
               type="submit"
-              className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-blue-900 text-white my-6"
+              className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-blue-700 text-white my-6"
             >
               Contact US
             </button>

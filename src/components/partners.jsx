@@ -1,3 +1,7 @@
+import Port1 from "../assets/portfolios/port1.jpeg";
+import Port2 from "../assets/portfolios/port2.jpeg";
+import Port3 from "../assets/portfolios/port3.jpeg";
+
 const Partners = () => {
   return (
     <>
@@ -10,44 +14,42 @@ const Partners = () => {
             Meet Our Partners
           </h1>
         </div>
-
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center items-center">
           <div className="w-full md:w-1/3 p-4">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                className="w-full h-56 object-cover object-center"
-                src="https://source.unsplash.com/random/400x400"
+                className="w-screen h-full object-cover object-center"
+                src={Port1}
                 alt="Partner 1"
               />
               <div className="p-4">
-                <h2 className="font-bold text-2xl mb-2 text-gray-700">Partner 1</h2>
-                <p className="text-gray-600">Role of Partner 1</p>
+                <p className="text-gray-600">Liberty's Promise</p>
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/3 p-4">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                className="w-full h-56 object-cover object-center"
-                src="https://source.unsplash.com/random/400x400"
+                className="w-full h-full object-cover object-center"
+                src={Port2}
                 alt="Partner 2"
               />
               <div className="p-4">
-                <h2 className="font-bold text-2xl mb-2 text-gray-700">Partner 2</h2>
-                <p className="text-gray-600">Role of Partner 2</p>
+                <p className="text-gray-600">Jack and Jill</p>
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/3 p-4">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                className="w-full h-56 object-cover object-center"
-                src="https://source.unsplash.com/random/400x400"
+                className="w-full h-full object-cover object-center"
+                src={Port3}
                 alt="Partner 3"
               />
               <div className="p-4">
-                <h2 className="font-bold text-2xl mb-2 text-gray-700">Partner 3</h2>
-                <p className="text-gray-600">Role of Partner 3</p>
+                <p className="text-gray-600">
+                  Creative Minds International Public Chapter School
+                </p>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="bg-blue-900  text-white md:px-32 w-full md:py-10  py-6 "
+        className="bg-blue-800  text-white md:px-32 w-full md:py-10  py-6 "
       >
         <h1 className="text-white text-center text-2xl mb-6">Services</h1>
         <div className="md:grid grid-cols-4 gap-4">

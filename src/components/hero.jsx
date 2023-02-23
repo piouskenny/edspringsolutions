@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
     <Navbar />
-      <div className="bg-blue-900 w-full h-2/4 text-white md:grid md:grid-cols-2 md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 ">
+      <div className="bg-blue-800 w-full h-2/4 text-white md:grid md:grid-cols-2 md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 ">
       
         <div className="md:col-span-1 md:mt-12 ">
             <h1 className="text-3xl md:text-5xl font-medium">The Perfect Place for Education Consult</h1>
