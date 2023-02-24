@@ -5,14 +5,17 @@ const Founder = () => {
     <>
       <section
         id="founder"
-        className="bg-gray-100  text-white lg:mt-6 lg:px-32 px-10 pt-16 pb-10"
+        className="text-white lg:mt-6 lg:px-32 px-10  pb-10"
       >
-        <h2 className="text-gray-800 font-bold text-xl my-6 text-center">
-          Meet the Founder
+        <h2 className="text-gray-800 text-4xl mb-6  text-start">
+          Meet the <span className="underline my-3 ">Founder</span>
         </h2>
-        <div className="lg:grid lg:grid-cols-2 gap-6 ">
+        <div className="lg:grid lg:grid-cols-2 gap-6 md:flex items-center ">
+          <div className="lg:col-span-1 lg:mt-0">
+            <img src={DrTaiwo} alt="Founders Image" className="h-fit w-full" />
+          </div>
           <div className="lg:col-span-1 lg:mt-10">
-            <p className="lg:text-lg text-gray-600 mt-1 font-medium">
+            <p className="md:text-xl  text-gray-600 text-lg mt-12">
               Dr. Emmanuel Taiwo is an education leader and consultant with over
               17 years of dedicated experience promoting excellence and equity
               in education for all students. He possesses a broad range of
@@ -32,9 +35,6 @@ const Founder = () => {
               member of several professional organizations and holds a doctorate
               in Special Education from John Hopkins University, Baltimore, USA.
             </p>
-          </div>
-          <div className="lg:col-span-1 mt-6 lg:mt-0">
-            <img src={DrTaiwo} alt="Founders Image" className="h-full w-full" />
           </div>
         </div>
       </section>

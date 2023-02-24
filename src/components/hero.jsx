@@ -17,7 +17,7 @@ const Hero = () => {
       >
         <div className="md:col-span-1 md:mt-12  md:mb-10">
           <h1 className="text-7xl md:text-9xl font-medium">
-            EdSpr<span className="text-black">i</span>ng
+            EdSpr<span className="text-[#ffb703]">i</span>ng
             <span className="block md:text-5xl md:mt-4 text-3xl mt-3 ">Solutions</span>
           </h1>
 

@@ -10,7 +10,7 @@ const About = () => {
         <div className="lg:mx-40">
           <h1 className="text-4xl text-center text-gray-800 font-semibold">
             About EdSpring
-            <span className="font-light block">Solutions</span>
+            <span className="font-light block text-[#ffb703]">Solutions</span>
           </h1>
           <p className="md:text-xl  text-gray-600 text-lg mt-12">
             At EdSpring Solutions, we utilize evidence-based practices and
@@ -22,7 +22,7 @@ const About = () => {
           </p>
 
           <Link to="/about" target="_parent">
-            <button className="bg-gray-900 px-4 mt-6 py-2 border-md border rounded-lg md:rounded-xl hover:bg-white hover:text-blue-400">
+            <button className="bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl text-black hover:bg-white hover:text-blue-400">
               Read More About Us &rarr;
             </button>
           </Link>

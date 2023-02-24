@@ -102,16 +102,6 @@ const Navbar = () => {
           <li className="mx-4 my-6">
             <a
               target="_parent"
-              to="/#founder"
-              className="hover:text-blue-900 text-lg"
-              onClick={handleclick}
-            >
-              Founder
-            </a>
-          </li>
-          <li className="mx-4 my-6">
-            <a
-              target="_parent"
               href="#services"
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
