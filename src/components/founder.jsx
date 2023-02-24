@@ -12,7 +12,7 @@ const Founder = () => {
         </h2>
         <div className="lg:grid lg:grid-cols-2 gap-6 md:flex items-center ">
           <div className="lg:col-span-1 lg:mt-0">
-            <img src={DrTaiwo} alt="Founders Image" className="h-fit w-full" />
+            <img src={DrTaiwo} alt="Founders Image" className="h-full w-full" />
           </div>
           <div className="lg:col-span-1 lg:mt-10">
             <p className="md:text-xl  text-gray-600 text-lg mt-12">
