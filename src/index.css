@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 .nav_bar {
-    width: 97%;
+    width: 100%;
 }
 
 /* Mobile Menu and Her0 Section */
 @media (max-width:600px) {
     #menu {
-        width: 70%;
-        margin-left: 30%;
+        width: 100%;
+        /* margin-left: 30%; */
     }
 
     #hero {
