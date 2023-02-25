@@ -16,7 +16,7 @@ const Partners = () => {
         </div>
 
         <div className="port md:hidden text-center">
-          <div className="flex justify-center items-center gap-20">
+          <div className="flex justify-center items-center gap-40">
             <img
               className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
               src={Port1}
