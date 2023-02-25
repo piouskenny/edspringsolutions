@@ -5,7 +5,7 @@ import './index.css';
 import BuidingComponents from './components/Pages/buildingComponents';
 import SystemAndProgramPlanning from './components/Pages/systemAndProgramPlanning';
 import SpecialEducation from './components/Pages/specialEducation';
-import AboutMore from './components/Pages/about'
+import AboutMore from './components/Pages/aboutMore'
 
 import {
   createBrowserRouter,
