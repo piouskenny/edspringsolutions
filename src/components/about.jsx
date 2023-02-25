@@ -21,7 +21,7 @@ const About = () => {
             clients to achieve the desired results.
           </p>
 
-          <Link to="/about" target="_parent">
+          <Link to="/aboutMore" target="_parent">
             <button className="bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl text-black hover:bg-white hover:text-blue-400">
               Read More About Us &rarr;
             </button>
