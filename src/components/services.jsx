@@ -84,7 +84,7 @@ const Services = () => {
             <div className="bg-white shadow-xl  rounded-lg overflow-hidden">
               <img
                 className="w-screen h-full object-cover object-center"
-                src=" https://img.freepik.com/free-photo/happy-african-american-bank-manager-shaking-hands-with-client-after-successful-agreement-office_637285-1150.jpg?w=740&t=st=1677255898~exp=1677256498~hmac=5d4673ed516b13791e70d13a7d7ccddf84ddb17214209534cc11aa3721f64718"
+                src=" https://img.freepik.com/free-photo/multiethnic-team-people-working-call-center-office-using-audio-headset-telecommunications-help-clients-people-answering-call-phone-helpline-giving-assistance-workstation_482257-41880.jpg?w=900&t=st=1677317508~exp=1677318108~hmac=0f79a1676fdd1c43272d572e937a80828758483066ad8d880e445a246e082afc"
                 alt="Partner 1"
               />
               <div className="p-4">
