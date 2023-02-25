@@ -10,7 +10,7 @@ const About = () => {
         <div className="lg:mx-40">
           <h1 className="text-4xl text-center text-gray-800 font-semibold">
             About EdSpring
-            <span className="font-light block text-[#ffb703]">Solutions</span>
+            <span className="font-light block">Solutions</span>
           </h1>
           <p className="md:text-xl  text-gray-600 text-lg mt-12">
             At EdSpring Solutions, we utilize evidence-based practices and

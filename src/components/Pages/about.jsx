@@ -7,7 +7,7 @@ const AboutMore = () => {
     <Navbar/>
       <section
         id="about"
-        className="bg-gray-200 text-white lg:mt-0 md:px-32 px-10 pt-10 pb-10"
+        className="bg-gray-200 text-white lg:mt-0 md:px-32 px-2 pt-10 pb-10"
       >
         <div className="lg:mx-20 px-20 py-10 bg-white shadow-md">
           <h1 className="text-4xl text-center text-gray-800 font-semibold">

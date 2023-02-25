@@ -5,7 +5,7 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="text-white md:px-32 w-full md:py-10  pt-20 pb-10"
+        className="text-white md:px-20 w-full md:py-10 px-20 pt-20 pb-10"
       >
         <h1 className="text-black text-center text-4xl mb-6">Services</h1>
 
@@ -18,13 +18,14 @@ const Services = () => {
                 alt="Partner 1"
               />
               <div className="p-4 mb-4">
-                <h1 className="font-bold md:py-2  text-gray-900">
+                <h1 className="font-bold md:py-2  text-gray-900 my-1">
                   Capacity Building
                 </h1>
                 <br />
                 <Link
                   to="/buildingComponents"
-                  className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
+                  target="_parent"
+                  className="text-sm bg-white px-4 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
                 >
                   Read More &rarr;
                 </Link>
@@ -44,6 +45,7 @@ const Services = () => {
                 <h1 className="font-bold md:py-2  text-gray-900">
                   System & Program Planning
                 </h1>
+                <br />
                 <Link
                   to="/systemandprogramPlanning"
                  
@@ -66,6 +68,7 @@ const Services = () => {
                 <h1 className="font-bold md:py-2  text-gray-900">
                   Special Education Advocacy for Families
                 </h1>
+                <br />
                 <Link to="/specialeducation" 
                  className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
                 >
@@ -86,6 +89,7 @@ const Services = () => {
                 <h1 className="font-bold md:py-2  text-gray-900">
                   Special Education and Section 504 Compliance
                 </h1>
+                <br />
                 <Link to="/specialeducation" 
                  className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
                 >
