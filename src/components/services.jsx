@@ -14,7 +14,7 @@ const Services = () => {
             <div className="bg-white shadow-xl  rounded-lg overflow-hidden">
               <img
                 className="w-screen h-full object-cover object-center"
-                src="https://img.freepik.com/free-photo/happy-african-american-bank-manager-shaking-hands-with-client-after-successful-agreement-office_637285-1150.jpg?w=740&t=st=1677255898~exp=1677256498~hmac=5d4673ed516b13791e70d13a7d7ccddf84ddb17214209534cc11aa3721f64718"
+                src="https://img.freepik.com/free-photo/stacking-wooden-blocks-is-risk-creating-business-growth-ideas_1150-19611.jpg?w=740&t=st=1677316654~exp=1677317254~hmac=522ba215e0993ae81c1753d8b937a63d69dd44cb70065a4858558b18c841cbde"
                 alt="Partner 1"
               />
               <div className="p-4 mb-4">
@@ -62,7 +62,7 @@ const Services = () => {
             <div className="bg-white shadow-xl  rounded-lg overflow-hidden">
               <img
                 className="w-screen h-full object-cover object-center"
-                src=" https://img.freepik.com/free-photo/happy-african-american-bank-manager-shaking-hands-with-client-after-successful-agreement-office_637285-1150.jpg?w=740&t=st=1677255898~exp=1677256498~hmac=5d4673ed516b13791e70d13a7d7ccddf84ddb17214209534cc11aa3721f64718"
+                src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
                 alt="Partner 1"
               />
               <div className="p-4">
@@ -71,6 +71,7 @@ const Services = () => {
                 </h1>
                 <br />
                 <Link to="/specialeducation" 
+                target="_parent"
                  className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
                 >
                   Read More &rarr;

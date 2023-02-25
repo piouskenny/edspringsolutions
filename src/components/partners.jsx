@@ -15,28 +15,40 @@ const Partners = () => {
           </h1>
         </div>
 
-        <div className="grid grid-cols-3 gap-6 justify-center items-center">
-          <div className="col-span-1">
+        <div className="port md:hidden">
+          <div className="flex gap-12">
             <img
               className="w-40 h-40 object-center"
               src={Port1}
               alt="Partner 1"
             />
-          </div>
-
-          <div className="col-span-1">
             <img
-              className="w-40 h-20 object-center"
-              src={Port2}
-              alt="Partner 2"
-            />
-          </div>
-          <div className="col-span 1">
-            <img
-              className="w-40 h-40 object-center"
+              className="w-40 h-fill object-center my-6"
               src={Port3}
               alt="Partner 3"
             />
+          </div>
+
+          <img
+            className="w-full h-20 object-center"
+            src={Port2}
+            alt="Partner 2"
+          />
+        </div>
+
+        <div className="flex justify-center items-center mt-6">
+          <div className=" hidden md:grid grid-cols-3 gap-12 items-center">
+            <div className="col-span-1  ">
+              <img className="w-30 h-40" src={Port1} alt="Partner 1" />
+            </div>
+
+            <div className="col-span-1  ml-16">
+              <img className="w-fit h-40" src={Port3} alt="Partner 3" />
+            </div>
+
+            <div className="col-span-1">
+              <img className="w-fit h-20" src={Port2} alt="Partner 2" />
+            </div>
           </div>
         </div>
       </section>
