@@ -6,7 +6,7 @@ const Partners = () => {
   return (
     <>
       <section
-        id="about"
+        id="porfolios"
         className="bg-gradient-to-r hover:bg-gradient-to-l from-gray-200 to-white w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
       >
         <div className="md:mx-40">

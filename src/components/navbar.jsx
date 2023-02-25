@@ -101,7 +101,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              target="_parent"
+              
               href="#services"
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
@@ -111,7 +111,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              target="_parent"
+              
               href=""
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
@@ -121,8 +121,8 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              target="_parent"
-              href=""
+              
+              href="#porfolios"
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
             >
@@ -131,7 +131,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              target="_parent"
+           
               href="#contact"
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
