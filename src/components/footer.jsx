@@ -26,7 +26,7 @@ function Footer() {
             <li className="mb-2">1234 Main Street</li>
             <li className="mb-2">Anytown, USA 12345</li>
             <li className="mb-2">Phone: (123) 456-7890</li>
-            <li className="mb-2">Email: </li>
+            <li className="mb-2">Email: info@edspringsolutions.com</li>
           </ul>
         </div>
       </div>

@@ -33,7 +33,7 @@ const AboutMore = () => {
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
               <span className="font-bold">
-                EquityCollaborative Partnership:
+                Collaborative Partnership:
               </span>{" "}
               We value collaborative partnerships with our clients. We work
               closely with our clients to understand their unique needs and
@@ -41,14 +41,14 @@ const AboutMore = () => {
               that improve educational outcomes.
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
-              <span className="font-bold">EquityEvidence-Based Practices:</span>{" "}
+              <span className="font-bold">Evidence-Based Practices:</span>{" "}
               We stay up-to-date with the latest research and best practices in
               education and use this knowledge to inform our services. We
               believe that evidence-based practices are essential to achieving
               the best outcomes for students.
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
-              <span className="font-bold">Equity Innovation:</span> We believe
+              <span className="font-bold">Innovation:</span> We believe
               that new ideas and approaches can drive positive change in
               education, and our team thinks outside the box and develop
               innovative solutions to complex challenges. We believe that
