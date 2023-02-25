@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <h1 className="font-bold uppercase p-4 md:text-2xl">
           <Link target="_parent" href="#" className="text-gray-700">
-            EdSpring Solution
+            EdSpring Solutions
           </Link>
         </h1>
 

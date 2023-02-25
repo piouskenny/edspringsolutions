@@ -1,6 +1,6 @@
-import Port1 from "../assets/portfolios/port1.jpeg";
-import Port2 from "../assets/portfolios/port2.jpeg";
-import Port3 from "../assets/portfolios/port3.jpeg";
+import Port1 from "../assets/portfolios/Port1.png";
+import Port2 from "../assets/portfolios/Port2.png";
+import Port3 from "../assets/portfolios/Port3.png";
 
 const Partners = () => {
   return (
