@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <div className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10 shadow-gray-900 shadow-xl py-6 md:py-12">
+    <div id="contact" className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10 shadow-gray-900 shadow-sm py-6 md:py-12">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-xl font-extrabold tracking-tight text-blue-900 sm:text-4xl text-center">
           Contact Us

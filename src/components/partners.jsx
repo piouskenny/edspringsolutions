@@ -7,33 +7,37 @@ const Partners = () => {
     <>
       <section
         id="about"
-        className="bg-white  text-white md:mt-6 md:px-32 px-10 py-6"
+        className="bg-gradient-to-r hover:bg-gradient-to-l from-gray-200 to-white w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
       >
         <div className="md:mx-40">
-          <h1 className="text-2xl text-center text-gray-800 font-semibold">
+          <h1 className="text-4xl text-center text-gray-800 font-semibold">
             Portfolios
           </h1>
         </div>
 
-        <div className="port md:hidden">
-          <div className="flex gap-12">
+        <div className="port md:hidden text-center">
+          <div className="flex justify-center items-center gap-20">
             <img
-              className="w-40 h-40 object-center"
+              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
               src={Port1}
               alt="Partner 1"
             />
+
             <img
-              className="w-40 h-fill object-center my-6"
+              className="md:w-40 md:h-40 h-[60px] w-[100px]object-center my-6"
               src={Port3}
               alt="Partner 3"
             />
+            
           </div>
-
+          <div className="flex justify-center items-center">
           <img
-            className="w-full h-20 object-center"
+            className="md:w-40  md:h-40 h-[40px]"
             src={Port2}
             alt="Partner 2"
           />
+          </div>
+
         </div>
 
         <div className="flex justify-center items-center mt-6">

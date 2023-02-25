@@ -28,7 +28,7 @@ const Founder = () => {
 
               <Link to="/aboutMore/#founder" >
                 <button className="block bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl text-black hover:bg-white hover:text-blue-400">
-                  About Dr. Emmanuel Taiwo &rarr;
+                  More About Dr. Emmanuel &rarr;
                 </button>
               </Link>
             </p>

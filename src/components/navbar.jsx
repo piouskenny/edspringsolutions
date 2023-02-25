@@ -126,13 +126,13 @@ const Navbar = () => {
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
             >
-              Partners
+              Porfolios
             </a>
           </li>
           <li className="mx-4 my-6">
             <a
               target="_parent"
-              href=""
+              href="#contact"
               className="hover:text-blue-900 text-lg"
               onClick={handleclick}
             >

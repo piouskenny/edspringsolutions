@@ -5,7 +5,7 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="text-white md:px-20 w-full md:py-10 px-20 pt-20 pb-10"
+        className="text-white md:px-20 w-full md:py-10 px-10 pt-20 pb-10"
       >
         <h1 className="text-black text-center text-4xl mb-6">Services</h1>
 
