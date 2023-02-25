@@ -5,7 +5,7 @@ import './index.css';
 import BuidingComponents from './components/Pages/buildingComponents';
 import SystemAndProgramPlanning from './components/Pages/systemAndProgramPlanning';
 import SpecialEducation from './components/Pages/specialEducation';
-import About from './components/Pages/about'
+import AboutMore from './components/Pages/about'
 
 import {
   createBrowserRouter,
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About/>,
+    element: <AboutMore/>,
   },
 ]);
 

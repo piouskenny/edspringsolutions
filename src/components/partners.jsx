@@ -11,47 +11,32 @@ const Partners = () => {
       >
         <div className="md:mx-40">
           <h1 className="text-2xl text-center text-gray-800 font-semibold">
-            Meet Our Partners
+            Portfolios
           </h1>
         </div>
-        <div className="flex flex-wrap justify-center items-center">
-          <div className="w-full md:w-1/3 p-4">
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img
-                className="w-screen h-full object-cover object-center"
-                src={Port1}
-                alt="Partner 1"
-              />
-              <div className="p-4">
-                <p className="text-gray-600">Liberty's Promise</p>
-              </div>
-            </div>
+
+        <div className="grid grid-cols-3 gap-6 justify-center items-center">
+          <div className="col-span-1">
+            <img
+              className="w-40 h-40 object-center"
+              src={Port1}
+              alt="Partner 1"
+            />
           </div>
-          <div className="w-full md:w-1/3 p-4">
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img
-                className="w-full h-full object-cover object-center"
-                src={Port2}
-                alt="Partner 2"
-              />
-              <div className="p-4">
-                <p className="text-gray-600">Jack and Jill</p>
-              </div>
-            </div>
+
+          <div className="col-span-1">
+            <img
+              className="w-40 h-20 object-center"
+              src={Port2}
+              alt="Partner 2"
+            />
           </div>
-          <div className="w-full md:w-1/3 p-4">
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img
-                className="w-full h-full object-cover object-center"
-                src={Port3}
-                alt="Partner 3"
-              />
-              <div className="p-4">
-                <p className="text-gray-600">
-                  Creative Minds International Public Chapter School
-                </p>
-              </div>
-            </div>
+          <div className="col-span 1">
+            <img
+              className="w-40 h-40 object-center"
+              src={Port3}
+              alt="Partner 3"
+            />
           </div>
         </div>
       </section>

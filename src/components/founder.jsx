@@ -7,7 +7,7 @@ const Founder = () => {
         id="founder"
         className="text-white lg:mt-6 lg:px-32 px-10  pb-10"
       >
-        <h2 className="text-gray-800 text-4xl mb-6  text-start">
+        <h2 className="text-gray-800 text-3xl mb-6  text-start">
           Meet the <span className="underline my-3 ">Founder</span>
         </h2>
         <div className="lg:grid lg:grid-cols-2 gap-6 md:flex items-center ">

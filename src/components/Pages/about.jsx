@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "../navbar";
 import Footer from "../footer";
-const About = () => {
+const AboutMore = () => {
   return (
     <>
     <Navbar/>
@@ -63,4 +63,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutMore;
