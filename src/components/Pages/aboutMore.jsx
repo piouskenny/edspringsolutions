@@ -62,7 +62,7 @@ const AboutMore = () => {
               <img
                 src={DrTaiwo}
                 alt="Founders Image"
-                className="h-fit w-fit mt-12"
+                className="h-fill w-fill mt-12"
               />
             </div>
             <div className="">
