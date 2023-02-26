@@ -30,7 +30,7 @@ const About = () => {
           </p>
 
           <Link to="/aboutMore" target="_parent">
-            <button className="bg-white px-4 mt-6 py-2 border-lg border border-orange-400 rounded-lg md:rounded-xl text-orange-400 hover:bg-white hover:text-blue-400">
+            <button className="bg-white px-4 mt-6 py-2 border-lg border border-blue-500 rounded-lg md:rounded-xl text-blue-500 hover:bg-white hover:text-blue-400">
               Read More About Us &rarr;
             </button>
           </Link>

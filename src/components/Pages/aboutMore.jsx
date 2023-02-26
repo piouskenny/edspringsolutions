@@ -10,7 +10,7 @@ const AboutMore = () => {
         id="about"
         className="bg-blue-100 text-white lg:mt-0 md:px-32 px-2 pb-10"
       >
-        <div className="lg:mx-20 px-10 py-10 bg-white shadow-md">
+        <div className="lg:mx-20 px-10 pt-20 py-10 bg-white shadow-md">
           <h1 className="text-4xl text-center text-blue-500 font-semibold">
             About EdSpring
             <span className="font-light block text-green-500 ">Solutions</span>

@@ -84,7 +84,7 @@ const Navbar = () => {
             <Link
               target="_parent"
               to="/"
-              className="hover:text-orange-400 font-semibold text-lg"
+              className="hover:text-orange-400 text-lg"
             >
               Home
             </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
             <a
               target="_parent"
               href="/aboutMore"
-              className="hover:text-orange-400 font-semibold text-lg"
+              className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               About
@@ -103,7 +103,7 @@ const Navbar = () => {
             <a
               
               href="/#services"
-              className="hover:text-orange-400 font-semibold text-lg"
+              className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Services
@@ -113,7 +113,7 @@ const Navbar = () => {
             <a
               
               href="/#porfolios"
-              className="hover:text-orange-400 font-semibold text-lg"
+              className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Porfolios
@@ -123,7 +123,7 @@ const Navbar = () => {
             <a
            
               href="/#contact"
-              className="hover:text-orange-400 font-semibold text-lg"
+              className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Contact
