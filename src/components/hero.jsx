@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-import HeroImage from './hero.jpg';
+import HeroImage from './hero-edited.png';
 
 const Hero = () => {
   return (
