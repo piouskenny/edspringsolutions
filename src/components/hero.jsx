@@ -10,17 +10,20 @@ const Hero = () => {
          text-white
         text-center
       "
-        style={{ backgroundImage: "url('./src/assets/img/hero.JPG')" }}
+        style={{
+          backgroundImage:
+            "url('https://mail.google.com/mail/u/0?ui=2&ik=5c3abbead2&attid=0.3&permmsgid=msg-f:1758866084248837250&th=1868bf627f225c82&view=fimg&disp=thd&attbid=ANGjdJ_aQz3ehHfjHFpvyPaYEfWTAfep2wQNdKdYjnYZrXBs54zLCd256EK5cqguJ2CCU7nDyPYgRzQUFnW5sokiRcaDk81JMlJcImeNr1VSHpE1gbg80BSzI5vfQzw&ats=2524608000000&sz=w1364-h665')",
+        }}
 
         //  md:grid md:grid-cols-2
         // bg-[#426c91]
       >
-        <img src="./src/assets/img/hero.JPG" alt="" />
-        <div className=" bg-gradient-to-br hover:bg-gradient-to-bl
+        <div
+          className="bg-black bg-opacity-50 md:bg-opacity-10
          md:px-32 md:pb-10 md:pt-10 pt-40 pb-28 px-6 
-        from-gray-600 via-gray-gray-400 to-transparent 
-        bg-opacity-100
-        ">
+        
+        "
+        >
           <div className="md:col-span-1 md:mt-20  md:mb-0">
             <h1 className="text-8xl md:text-9xl font-medium">
               EdSpr<span className="text-[#ffb703]">i</span>ng
@@ -29,7 +32,7 @@ const Hero = () => {
               </span>
             </h1>
 
-            <h1 className="md:text-xl font-bold my-3 text-gray-200">
+            <h1 className="md:text-xl font-medium my-3 text-gray-200">
               Transforming Education with Innovative Solutions, Improving
               Student Outcomes
             </h1>
