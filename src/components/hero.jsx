@@ -19,7 +19,7 @@ const Hero = () => {
         // bg-[#426c91]
       >
         <div
-          className="bg-black bg-opacity-50 md:bg-opacity-10
+          className="bg-black bg-opacity-40 md:bg-opacity-10
          md:px-32 md:pb-10 md:pt-10 pt-40 pb-28 px-6 
         
         "
