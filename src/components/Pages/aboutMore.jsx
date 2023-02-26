@@ -16,12 +16,30 @@ const AboutMore = () => {
             <span className="font-light block">Solutions</span>
           </h1>
           <p className="md:text-xl  text-gray-600 text-lg mt-12">
-            At EdSpring Solutions, we utilize evidence-based practices and
-            solution-oriented approaches in promoting high-quality education for
-            all students through our educational service. Our team is commited
-            to staying up-to-date with the latest research and best practices in
-            education, and we integrate this knowledge into our work with
-            clients to achieve the desired results.
+            Improving student outcomes is a complex and multifaceted challenge
+            that requires a collaborative effort across the entire education
+            ecosystem. At EdSpring Solutions, we believe in a holistic approach
+            that takes into account the complex interplay of factors that affect
+            student achievement, and we partner with our clients to proffer
+            actionable solutions that support the achievement of all students.
+          </p>
+          <p className="md:text-xl  text-gray-600 text-lg mt-4">
+            Our team utilizes evidence-based practices and solution-oriented
+            approaches to promote high-quality education for all students
+            through our educational services. At the heart of our team's
+            approach is a dedication to staying current with the latest research
+            and best practices in the field of education, and we integrate this
+            knowledge into our work with clients to achieve the desired results.
+          </p>
+          <p className="md:text-xl  text-gray-600 text-lg mt-4 mb-6">
+            We take pride in creating professional learning experiences tailored
+            to your needs, ensuring they are coherent, relevant, engaging, and
+            data-driven. Our collaborative approach involves working closely
+            with our clients to create a shared understanding of their needs,
+            challenges, and desired outcomes. We strive to establish open lines
+            of communication with our clients, listening to their input and
+            feedback at every step of the way, thereby providing comprehensive
+            and actionable solutions.
           </p>
           <div className="">
             <p className="lg:text-xl text-gray-600 mt-6">
@@ -32,30 +50,31 @@ const AboutMore = () => {
               background or circumstances.
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
-              <span className="font-bold">
-                Collaborative Partnership:
-              </span>{" "}
-              We value collaborative partnerships with our clients. We work
-              closely with our clients to understand their unique needs and
-              goals, and we partner with them to develop effective solutions
-              that improve educational outcomes.
+              <span className="font-bold">Collaborative Partnership:</span> We
+              value collaborative partnerships with our clients. We work closely
+              with our clients to understand their unique needs and goals, and
+              we partner with them to develop effective solutions that improve
+              educational outcomes.
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
-              <span className="font-bold">Evidence-Based Practices:</span>{" "}
-              We stay up-to-date with the latest research and best practices in
+              <span className="font-bold">Evidence-Based Practices:</span> We
+              stay up-to-date with the latest research and best practices in
               education and use this knowledge to inform our services. We
               believe that evidence-based practices are essential to achieving
               the best outcomes for students.
             </p>
             <p className="lg:text-xl text-gray-600 mt-6">
-              <span className="font-bold">Innovation:</span> We believe
-              that new ideas and approaches can drive positive change in
-              education, and our team thinks outside the box and develop
-              innovative solutions to complex challenges. We believe that
-              through innovation, we can improve educational outcomes and make a
-              positive impact on students' lives.
+              <span className="font-bold">Innovation:</span> We believe that new
+              ideas and approaches can drive positive change in education, and
+              our team thinks outside the box and develop innovative solutions
+              to complex challenges. We believe that through innovation, we can
+              improve educational outcomes and make a positive impact on
+              students' lives.
             </p>
-            <h2 id="#founder" className="text-gray-800 text-3xl mb-2 mt-12  text-start">
+            <h2
+              id="#founder"
+              className="text-gray-800 text-3xl mb-2 mt-12  text-start"
+            >
               The <span className="underline ">Founder</span>
             </h2>
             <div className="lg:col-span-1 lg:mt-0">

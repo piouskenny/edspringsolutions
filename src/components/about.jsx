@@ -13,12 +13,12 @@ const About = () => {
             <span className="font-light block">Solutions</span>
           </h1>
           <p className="md:text-xl  text-gray-600 text-lg mt-12">
-            At EdSpring Solutions, we utilize evidence-based practices and
-            solution-oriented approaches in promoting high-quality education for
-            all students through our educational service. Our team is commited
-            to staying up-to-date with the latest research and best practices in
-            education, and we integrate this knowledge into our work with
-            clients to achieve the desired results.
+            Improving student outcomes is a complex and multifaceted challenge
+            that requires a collaborative effort across the entire education
+            ecosystem. At EdSpring Solutions, we believe in a holistic approach
+            that takes into account the complex interplay of factors that affect
+            student achievement, and we partner with our clients to proffer
+            actionable solutions that support the achievement of all students.
           </p>
 
           <Link to="/aboutMore" target="_parent">
