@@ -23,7 +23,7 @@ const Hero = () => {
         {/* <img src={HeroImage} alt="" /> */}
         <div
           className="bg-black bg-opacity-40 md:bg-opacity-10
-         md:px-32 md:pb-10 md:pt-10 pt-40 pb-28 px-6 
+         md:px-32 md:pb-30 md:pt-10 pt-40 pb-28 px-6 
         
         "
         >

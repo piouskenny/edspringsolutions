@@ -5,9 +5,9 @@ const About = () => {
     <>
       <section
         id="about"
-        className="bg-white text-white lg:mt-6 md:px-32 px-10 pt-20 pb-10"
+        className="bg-white text-white lg:mt-6  px-10 pt-20 md:pt-6 pb-10"
       >
-        <div className="lg:mx-40">
+        <div className="lg:mx-20">
           <h1 className="text-4xl text-center text-gray-800 font-semibold">
             About EdSpring
             <span className="font-light block">Solutions</span>

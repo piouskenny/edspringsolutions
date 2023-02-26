@@ -5,9 +5,9 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="text-white md:px-20 w-full md:py-10 px-10 pt-20 pb-10"
+        className="text-white md:px-28 w-full md:py-10 px-4 pt-20 pb-10"
       >
-        <h1 className="text-black text-center text-4xl mb-6">Services</h1>
+        <h1 className="text-black text-center font-bold text-4xl mb-6">Services</h1>
 
         <div className="lg:grid lg:grid-cols-4 lg:gap-4 md:grid md:grid-cols-2 md:gap-6  ">
           <div className="w-full md:w-fit p-4 md:col-span-1 lg:col-span-1">
