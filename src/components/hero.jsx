@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-import HeroImage from './hero-edited.png';
+import HeroImage from "./hero-edited.png";
 
 const Hero = () => {
   return (
@@ -12,14 +12,12 @@ const Hero = () => {
         text-center
       "
         style={{
-          backgroundImage:
-            `url(${HeroImage})`
+          backgroundImage: `url(${HeroImage})`,
         }}
 
         //  md:grid md:grid-cols-2
         // bg-[#426c91]
       >
-
         {/* <img src={HeroImage} alt="" /> */}
         <div
           className="bg-black bg-opacity-40 md:bg-opacity-10
@@ -28,9 +26,12 @@ const Hero = () => {
         "
         >
           <div className="md:col-span-1 md:mt-20  md:mb-0">
-            <h1 className="text-8xl md:text-9xl font-medium">
-              EdSpr<span className="text-[#ffb703]">i</span>ng
-              <span className="block md:text-5xl md:mt-4 text-3xl mt-1 ">
+            <h1 className="text-8xl md:text-9xl font-bold text-blue-400 ">
+              <span className="cursor-pointer transform hover:scale-110 ">
+                EdSpr<span className="text-orange-400">i</span>ng
+              </span>
+
+              <span className="block md:text-5xl md:mt-4 text-3xl mt-1 text-orange-400 ">
                 Solutions
               </span>
             </h1>
@@ -41,7 +42,7 @@ const Hero = () => {
             </h1>
 
             <a href="#contact">
-              <button className="bg-white-900 px-4 mt-6 py-2 border-md border rounded-lg md:rounded-xl hover:bg-white hover:text-blue-400">
+              <button className="cursor-pointer transform hover:scale-110 text-white  px-4 mt-6 py-2 border-md border border-green-500 rounded-lg md:rounded-xl hover:text-orange-400 hover:border-blue-500">
                 Schedule a meeting now &rarr;
               </button>
             </a>

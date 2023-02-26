@@ -2,7 +2,7 @@ const ContactUs = () => {
   return (
     <div id="contact" className="max-w-7xl mx-auto sm:px-6 lg:px-8  md:px-32 px-10 shadow-gray-900 shadow-sm py-6 md:py-12">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-xl font-extrabold tracking-tight text-blue-900 sm:text-4xl text-center">
+        <h2 className="text-4xl font-extrabold tracking-tight text-blue-500 sm:text-4xl text-center">
           Contact Us
         </h2>
 
@@ -63,7 +63,7 @@ const ContactUs = () => {
             <button
               // onClick={handleSubmit}
               type="submit"
-              className="inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow bg-[#426c91] text-white my-6"
+              className="inline-flex items-center py-3 border border-transparent rounded-md shadow px-20 bg-blue-500 text-white my-6"
             >
               Contact US
             </button>

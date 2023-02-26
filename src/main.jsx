@@ -6,6 +6,7 @@ import BuidingComponents from './components/Pages/buildingComponents';
 import SystemAndProgramPlanning from './components/Pages/systemAndProgramPlanning';
 import SpecialEducation from './components/Pages/specialEducation';
 import AboutMore from './components/Pages/aboutMore'
+import SpecialEducation504 from './components/Pages/SPecialEducation504';
 
 import {
   createBrowserRouter,
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
   {
     path: "/aboutMore",
     element: <AboutMore/>,
+  },
+
+  {
+    path: "/specialeducation504",
+    element: <SpecialEducation504/>,
   },
 
 ]);

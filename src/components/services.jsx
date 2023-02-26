@@ -7,14 +7,16 @@ const Services = () => {
         id="services"
         className="text-white md:px-28 w-full md:py-10 px-4 pt-20 pb-10"
       >
-        <h1 className="text-black text-center font-bold text-4xl mb-6">Services</h1>
+        <h1 className="text-blue-500 text-center font-bold text-4xl mb-6">
+          Services
+        </h1>
 
         <div className="lg:grid lg:grid-cols-4 lg:gap-4 md:grid md:grid-cols-2 md:gap-6  ">
           <div className="w-full md:w-fit p-4 md:col-span-1 lg:col-span-1">
             <div className="bg-white shadow-xl  rounded-lg overflow-hidden">
               <img
                 className="w-screen h-full object-cover object-center"
-                src="https://img.freepik.com/free-photo/stacking-wooden-blocks-is-risk-creating-business-growth-ideas_1150-19611.jpg?w=740&t=st=1677316654~exp=1677317254~hmac=522ba215e0993ae81c1753d8b937a63d69dd44cb70065a4858558b18c841cbde"
+                src="https://mail.google.com/mail/u/0?ui=2&ik=5c3abbead2&attid=0.4&permmsgid=msg-f:1758866084248837250&th=1868bf627f225c82&view=fimg&disp=thd&attbid=ANGjdJ_HzDpVFdJTjwT-b_nPyPmIDxt_xiLBAWlu4Vvym6mu2U1DQF16WPbmWTZ6z3lYTdC2Tfnh0sQk3hBfx_x8_T8d_7Oy9lFx1ZIY3qtaoh5xwNoDEBk6Eia0UH8&ats=2524608000000&sz=w1364-h608"
                 alt="Partner 1"
               />
               <div className="p-4 mb-4">
@@ -25,11 +27,10 @@ const Services = () => {
                 <Link
                   to="/buildingComponents"
                   target="_parent"
-                  className="text-sm bg-white px-4 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
+                  className="text-sm bg-white px-4 py-2 border-lg border border-green-500 rounded-lg md:rounded-xl  text-green-500 hover:bg-white hover:text-orange-400"
                 >
                   Read More &rarr;
                 </Link>
-                
               </div>
             </div>
           </div>
@@ -38,19 +39,19 @@ const Services = () => {
             <div className="bg-white shadow-xl  rounded-lg overflow-hidden">
               <img
                 className="w-screen h-full object-cover object-center"
-                src=" https://img.freepik.com/free-photo/happy-african-american-bank-manager-shaking-hands-with-client-after-successful-agreement-office_637285-1150.jpg?w=740&t=st=1677255898~exp=1677256498~hmac=5d4673ed516b13791e70d13a7d7ccddf84ddb17214209534cc11aa3721f64718"
+                src="https://mail.google.com/mail/u/0?ui=2&ik=5c3abbead2&attid=0.5&permmsgid=msg-f:1758866084248837250&th=1868bf627f225c82&view=fimg&disp=thd&attbid=ANGjdJ8Hpim54G911rDSZrm8JhMtmBCkSvcPshAcTM7WNId6UbPJV75KTQIYUKq8KfumwCVQ588tG06kNfzrUZ-1Ptr9WetKqFyyHr24hFds7DLFrORK7_doKgJbeu0&ats=2524608000000&sz=w1364-h665"
                 alt="Partner 1"
               />
               <div className="p-4">
                 <h1 className="font-bold md:py-2 mb-6 text-gray-900">
                   System & Program Planning
                 </h1>
-       
+
                 <br />
                 <Link
                   to="/systemandprogramPlanning"
-                 target="_parent"
-                  className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
+                  target="_parent"
+                  className="text-sm bg-white px-4 py-2 border-lg border border-green-500 rounded-lg md:rounded-xl  text-green-500 hover:bg-white hover:text-orange-400"
                 >
                   Read More &rarr;
                 </Link>
@@ -70,9 +71,10 @@ const Services = () => {
                   Special Education Advocacy for Families
                 </h1>
                 <br />
-                <Link to="/specialeducation" 
-                target="_parent"
-                 className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
+                <Link
+                  to="/specialeducation"
+                  target="_parent"
+                  className="text-sm bg-white px-4 py-2 border-lg border border-green-500 rounded-lg md:rounded-xl  text-green-500 hover:bg-white hover:text-orange-400"
                 >
                   Read More &rarr;
                 </Link>
@@ -92,8 +94,9 @@ const Services = () => {
                   Special Education and Section 504 Compliance
                 </h1>
                 <br />
-                <Link to="/specialeducation" 
-                 className="text-sm bg-white px-4 mt-6 py-2 border-lg border border-black rounded-lg md:rounded-xl  text-black hover:bg-white hover:text-blue-400"
+                <Link
+                  to="/specialeducation504"
+                  className="text-sm bg-white px-4 py-2 border-lg border border-green-500 rounded-lg md:rounded-xl  text-green-500 hover:bg-white hover:text-orange-400"
                 >
                   Read More &rarr;
                 </Link>

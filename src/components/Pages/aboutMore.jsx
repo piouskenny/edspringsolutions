@@ -8,12 +8,12 @@ const AboutMore = () => {
       <Navbar />
       <section
         id="about"
-        className="bg-gray-200 text-white lg:mt-0 md:px-32 px-2 pt-10 pb-10"
+        className="bg-blue-100 text-white lg:mt-0 md:px-32 px-2 pb-10"
       >
         <div className="lg:mx-20 px-10 py-10 bg-white shadow-md">
-          <h1 className="text-4xl text-center text-gray-800 font-semibold">
+          <h1 className="text-4xl text-center text-blue-500 font-semibold">
             About EdSpring
-            <span className="font-light block">Solutions</span>
+            <span className="font-light block text-green-500 ">Solutions</span>
           </h1>
           <p className="md:text-xl  text-gray-600 text-lg mt-12">
             Improving student outcomes is a complex and multifaceted challenge
@@ -109,12 +109,6 @@ const AboutMore = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section
-        id="founder"
-        className="text-white lg:mt-6 lg:px-32 px-10  pb-10"
-      >
-        <div className="lg:grid lg:grid-cols-2 gap-6 md:flex items-center "></div>
       </section>
       <Footer />
     </>

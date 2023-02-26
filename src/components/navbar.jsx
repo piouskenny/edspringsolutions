@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="nav_bar text-right mx-0 md:flex md:justify-between md:items-center  md:my-0  md:relative fixed z-0 bg-white shadow-gray-600 shadow-sm ">
       <div className="flex justify-between items-center">
         <h1 className="font-bold uppercase p-4 md:text-2xl">
-          <Link target="_parent" href="#" className="text-gray-700">
+          <Link target="_parent" href="#" className="text-blue-500">
             EdSpring Solutions
           </Link>
         </h1>
@@ -79,12 +79,12 @@ const Navbar = () => {
         } p-5 pt-0 text-sm  bg-white h-fit  hidden md:h-0 items-center md:flex text-start md:relative fixed z-0`}
         id="menu"
       >
-        <div className="md:flex mt-2 md:mt-0 font-medium">
-          <li className="mx-4 my-6">
+        <div className="md:flex mt-2 md:mt-0 text-blue-500">
+          <li className="mx-4 my-6 ">
             <Link
               target="_parent"
               to="/"
-              className="hover:text-blue-900 text-lg"
+              className="hover:text-orange-400 font-semibold text-lg"
             >
               Home
             </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
             <a
               target="_parent"
               href="/aboutMore"
-              className="hover:text-blue-900 text-lg"
+              className="hover:text-orange-400 font-semibold text-lg"
               onClick={handleclick}
             >
               About
@@ -102,8 +102,8 @@ const Navbar = () => {
           <li className="mx-4 my-6">
             <a
               
-              href="#services"
-              className="hover:text-blue-900 text-lg"
+              href="/#services"
+              className="hover:text-orange-400 font-semibold text-lg"
               onClick={handleclick}
             >
               Services
@@ -112,18 +112,8 @@ const Navbar = () => {
           <li className="mx-4 my-6">
             <a
               
-              href=""
-              className="hover:text-blue-900 text-lg"
-              onClick={handleclick}
-            >
-              Insights
-            </a>
-          </li>
-          <li className="mx-4 my-6">
-            <a
-              
-              href="#porfolios"
-              className="hover:text-blue-900 text-lg"
+              href="/#porfolios"
+              className="hover:text-orange-400 font-semibold text-lg"
               onClick={handleclick}
             >
               Porfolios
@@ -132,8 +122,8 @@ const Navbar = () => {
           <li className="mx-4 my-6">
             <a
            
-              href="#contact"
-              className="hover:text-blue-900 text-lg"
+              href="/#contact"
+              className="hover:text-orange-400 font-semibold text-lg"
               onClick={handleclick}
             >
               Contact

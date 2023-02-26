@@ -7,7 +7,7 @@ const Partners = () => {
     <>
       <section
         id="porfolios"
-        className="bg-gradient-to-r hover:bg-gradient-to-l from-gray-200 to-white w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
+        className="bg-gradient-to-r hover:bg-gradient-to-l from-green-200 to-blue-200 w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
       >
         <div className="md:mx-40">
           <h1 className="text-4xl text-center text-gray-800 font-semibold">

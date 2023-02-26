@@ -2,13 +2,13 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className=" text-gray-900 py-8">
+    <footer className=" text-white py-8 bg-blue-500">
       <hr className='my-6' />
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0  rounded-lg shadow-lg lg:shadow-xl p-6">
             
           <h3 className="text-2xl font-bold mb-4">Ed Spring Solutions</h3>
-          <p className="text-gray-400 mb-4">At EdSpring Solutions, we utilize evidence-based practices and solution-oriented approaches to promote high-quality education for all students through our educational services.</p>
+          <p className="text-white mb-4">At EdSpring Solutions, we utilize evidence-based practices and solution-oriented approaches to promote high-quality education for all students through our educational services.</p>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0  rounded-lg shadow-lg lg:shadow-xl p-6">
           <h3 className="text-lg font-bold mb-4">Links</h3>
