@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import HeroImage from '../assets/img/hero.jpg';
 
 const Hero = () => {
   return (
@@ -12,12 +13,14 @@ const Hero = () => {
       "
         style={{
           backgroundImage:
-            "url('https://mail.google.com/mail/u/0?ui=2&ik=5c3abbead2&attid=0.3&permmsgid=msg-f:1758866084248837250&th=1868bf627f225c82&view=fimg&disp=thd&attbid=ANGjdJ_aQz3ehHfjHFpvyPaYEfWTAfep2wQNdKdYjnYZrXBs54zLCd256EK5cqguJ2CCU7nDyPYgRzQUFnW5sokiRcaDk81JMlJcImeNr1VSHpE1gbg80BSzI5vfQzw&ats=2524608000000&sz=w1364-h665')",
+            `url(${HeroImage})`
         }}
 
         //  md:grid md:grid-cols-2
         // bg-[#426c91]
       >
+
+        {/* <img src={HeroImage} alt="" /> */}
         <div
           className="bg-black bg-opacity-40 md:bg-opacity-10
          md:px-32 md:pb-10 md:pt-10 pt-40 pb-28 px-6 
