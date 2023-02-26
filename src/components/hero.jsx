@@ -15,13 +15,14 @@ const Hero = () => {
         //  md:grid md:grid-cols-2
         // bg-[#426c91]
       >
+        <img src="./src/assets/img/hero.JPG" alt="" />
         <div className=" bg-gradient-to-br hover:bg-gradient-to-bl
          md:px-32 md:pb-10 md:pt-10 pt-40 pb-28 px-6 
         from-gray-600 via-gray-gray-400 to-transparent 
         bg-opacity-100
         ">
           <div className="md:col-span-1 md:mt-20  md:mb-0">
-            <h1 className="text-7xl md:text-9xl font-medium">
+            <h1 className="text-8xl md:text-9xl font-medium">
               EdSpr<span className="text-[#ffb703]">i</span>ng
               <span className="block md:text-5xl md:mt-4 text-3xl mt-1 ">
                 Solutions
