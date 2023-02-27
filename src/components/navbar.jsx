@@ -101,8 +101,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              
-              href="/#services"
+              href="services"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
