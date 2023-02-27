@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Planning from "../assets/img/point-papar.jpg";
 import Building from "../assets/img/book-bible.jpg";
+import bgCard from "../assets/img/classroom-close.jpg";
 
 // const servicesItems = [
 //   {
@@ -50,7 +51,13 @@ const Services = () => {
     <>
       <section
         id="services"
-        className="text-white md:px-28 w-full md:py-10 px-4 pt-20 pb-10 "
+        className="text-white md:px-28 w-full md:py-10 px-4 pt-20 pb-10 bg-opacity-60"
+        style={{
+          backgroundImage: `url(${bgCard})`,
+          backgroundBlendMode: "overlay",
+          // backgroundColor: "rgba(0, 0, 139, 0.5)",
+          backgroundSize: "cover",
+        }}
       >
         <h1 className="text-blue-500 text-center font-bold text-4xl mb-6">
           Services
@@ -74,11 +81,10 @@ const Services = () => {
                 src={Building}
                 alt="Partner 1"
               />
-              <div className="p-4 mb-4">
-                <h1 className="font-bold md:py-2  text-blue-500 my-1">
-                  Capacity Building
+              <div className="p-4 mb-2">
+                <h1 className="font-bold md:py-2  text-blue-500 my-1  mb-6 md:mb-0">
+                Building Components
                 </h1>
-                <br />
                 <Link
                   to="/buildingComponents"
                   target="_parent"
@@ -98,11 +104,10 @@ const Services = () => {
                 alt="Partner 1"
               />
               <div className="p-4">
-                <h1 className="font-bold md:py-2 mb-6 text-blue-500">
+                <h1 className="font-bold md:py-2  text-blue-500 mb-6 md:mb-0">
                   System & Program Planning
                 </h1>
 
-                <br />
                 <Link
                   to="/systemandprogramPlanning"
                   target="_parent"
@@ -122,10 +127,9 @@ const Services = () => {
                 alt="Partner 1"
               />
               <div className="p-4">
-                <h1 className="font-bold md:py-2  text-blue-500">
+                <h1 className="font-bold md:py-2  text-blue-500  mb-6 md:mb-0">
                   Special Education Advocacy for Families
                 </h1>
-                <br />
                 <Link
                   to="/specialeducation"
                   target="_parent"
@@ -145,10 +149,9 @@ const Services = () => {
                 alt="Partner 1"
               />
               <div className="p-4">
-                <h1 className="font-bold md:py-2  text-blue-500">
+                <h1 className="font-bold md:py-2 mt-6 text-blue-500  mb-6 md:mb-0">
                   Special Education and Section 504 Compliance
                 </h1>
-                <br />
                 <Link
                   to="/specialeducation504"
                   className="text-sm bg-white px-4 py-2 border-lg border border-green-500 rounded-lg md:rounded-xl  text-green-500 hover:bg-white hover:text-orange-400"

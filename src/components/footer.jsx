@@ -16,16 +16,13 @@ function Footer() {
             <li className="mb-2"><a href="#about">About</a></li>
             <li className="mb-2"><a href="#services">Services</a></li>
             <li className="mb-2"><a href="#insights">Insights</a></li>
-            <li className="mb-2"><a href="#partners">Partners</a></li>
+            <li className="mb-2"><a href="#partners">Porfolio</a></li>
             <li className="mb-2"><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0  rounded-lg shadow-lg lg:shadow-xl p-6">
           <h3 className="text-lg font-bold mb-4">Contact Us</h3>
           <ul className="list-none">
-            <li className="mb-2">1234 Main Street</li>
-            <li className="mb-2">Anytown, USA 12345</li>
-            <li className="mb-2">Phone: (123) 456-7890</li>
             <li className="mb-2">Email: info@edspringsolutions.com</li>
           </ul>
         </div>

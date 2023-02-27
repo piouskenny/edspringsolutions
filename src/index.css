@@ -6,11 +6,11 @@
 
 /* * {
   font-family: Forum;
-}
-
-body {
-  font-family: Forum;
 } */
+
+p {
+  font-family: Forum;
+}
 
 .nav_bar {
   width: 100%;

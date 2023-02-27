@@ -6,10 +6,10 @@ const BuidingComponents = () => {
     <>
       <Navbar />
       <div className="md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 bg-white h-fit">
-        <h1 className="text-center text-[#426c91] uppercase font-medium text-xl">
+        <h1 className="text-center text-orange-400 uppercase font-medium text-4xl">
           Services
         </h1>
-        <h1 className="font-bold text-center text-3xl my-6">
+        <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
           Building Components
         </h1>
         <p className="block my-6">
