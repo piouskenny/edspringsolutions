@@ -12,7 +12,7 @@ const About = () => {
             EdSpring <span className="text-green-500 ">Solutions</span>
           </h1>
           <div className="lg:grid gap-6 grid-cols-2  mt-10 md:mt-2">
-          <div className="mt-10  md:hidden">
+            <div className="mt-10  md:hidden">
               <img
                 src="https://img.freepik.com/free-photo/businessman-showing-changes-report_1098-3504.jpg?w=740&t=st=1677488730~exp=1677489330~hmac=dcae9ea60611e5ecb0faf64eac9948108c1b00cfeb8168f1b284ea929aa71986"
                 alt=""
@@ -50,6 +50,13 @@ const About = () => {
                 alt=""
                 className="h-fill w-fill"
               />
+
+              <p className="text-xs text-gray-500 opacity-40">
+                <a href="https://www.freepik.com/free-photo/businessman-showing-changes-report_868124.htm#query=Consultant&position=12&from_view=search&track=sph">
+                  Image by pressfoto
+                </a>{" "}
+                on Freepik
+              </p>
             </div>
           </div>
         </div>
