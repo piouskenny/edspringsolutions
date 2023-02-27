@@ -22,9 +22,9 @@ const Hero = () => {
         >
           <div
             id="content"
-            className="md:mt-20  md:mb-0 text-center mt-[20%]"
+            className="md:mt-20  md:mb-0 text-center mt-[8%]"
           >
-            <h1 className="text-5xl md:text-9xl font-bold text-center text-blue-400 ">
+            <h1 className="text-8xl md:text-9xl font-bold text-center text-blue-400 ">
               EdSpring Solutions
             </h1>
 
