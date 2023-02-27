@@ -12,63 +12,84 @@ const BuidingComponents = () => {
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
           Building Components
         </h1>
-        <p className="block my-6">
-          <span className="font-bold block">
-            Professional Learning Opportunities for Instructional Staff:
-          </span>
-          For instructional staff to create nurturing learning experiences for
-          students, they require continuous professional learning opportunities
-          tailored to their specific needs and roles. Research has established
-          that effective professional development for educators can improve
-          student learning outcomes, with some studies showing gains of up to 21
-          percentile points. Teachers in the United States spend an average of
-          89 hours per year on professional development. However, many teachers
-          reported feeling unsatisfied with the quality and relevance of the
-          training they received.{" "}
-          <a
-            href="https://s3.amazonaws.com/edtech-production/reports/Gates-PDMarketResearch-Dec5.pdf "
-            className="text-blue-600"
-          >
-            According to a survey conducted by the Bill and Melinda Gates
-            Foundation, only 29% of teachers were very satisfied with the
-            professional development they received.{" "}
-          </a>
-          This suggests a gap between the types of professional development
-          opportunities offered and what teachers need to improve their
-          effectiveness in the classroom. To address this issue, we ensure that
-          our professional development offerings are grounded in research and
-          are designed to be relevant, differentiated, engaging, and effective.
-        </p>
 
-        <p className="block my-6">
-          <span className="font-bold block">
-            Leadership Support and Coaching:
-          </span>
-          Leadership coaching for school administration is becoming increasingly
-          important as schools face a range of complex challenges and shifting
-          educational landscapes. To this end, school administrators require
-          professional learning opportunities in leading equitable schools that
-          ensure all students have access to high-quality education. This
-          included meeting the needs of students with disabilities, leading
-          schools to support diverse learners, equitably serving all students,
-          and meeting the needs of English learners. Unfortunately, while the
-          evidence points to the efficacy of coaching support for school
-          administration, fewer than one quarter (23%) of principals reported
-          having a mentor or coach in the past 2 years—and this percentage was
-          lower for principals in high-poverty schools (10%),{" "}
-          <a
-            href="https://learningpolicyinstitute.org/product/elementary-school-principals-professional-learning-report"
-            className="text-blue-600"
-          >
-            {" "}
-            according to a study conducted by the National Association of
-            Elementary School Principals (NAESP) and the Learning Policy
-            Institute (LPI).
-          </a>
-          EdSpring Solutions can provide valuable support and coaching to school
-          leaders as they work to create equitable learning outcomes for all
-          students.
-        </p>
+        <div className="grid grid-cols-2 gap-20">
+          <div className="col-span-1">
+            <p className="block my-6">
+              <span className="font-bold block">
+                Professional Learning Opportunities for Instructional Staff:
+              </span>
+              For instructional staff to create nurturing learning experiences
+              for students, they require continuous professional learning
+              opportunities tailored to their specific needs and roles. Research
+              has established that effective professional development for
+              educators can improve student learning outcomes, with some studies
+              showing gains of up to 21 percentile points. Teachers in the
+              United States spend an average of 89 hours per year on
+              professional development. However, many teachers reported feeling
+              unsatisfied with the quality and relevance of the training they
+              received.{" "}
+              <a
+                href="https://s3.amazonaws.com/edtech-production/reports/Gates-PDMarketResearch-Dec5.pdf "
+                className="text-blue-600"
+              >
+                According to a survey conducted by the Bill and Melinda Gates
+                Foundation, only 29% of teachers were very satisfied with the
+                professional development they received.{" "}
+              </a>
+              This suggests a gap between the types of professional development
+              opportunities offered and what teachers need to improve their
+              effectiveness in the classroom. To address this issue, we ensure
+              that our professional development offerings are grounded in
+              research and are designed to be relevant, differentiated,
+              engaging, and effective.
+            </p>
+
+            <p className="block my-6">
+              <span className="font-bold block">
+                Leadership Support and Coaching:
+              </span>
+              Leadership coaching for school administration is becoming
+              increasingly important as schools face a range of complex
+              challenges and shifting educational landscapes. To this end,
+              school administrators require professional learning opportunities
+              in leading equitable schools that ensure all students have access
+              to high-quality education. This included meeting the needs of
+              students with disabilities, leading schools to support diverse
+              learners, equitably serving all students, and meeting the needs of
+              English learners. Unfortunately, while the evidence points to the
+              efficacy of coaching support for school administration, fewer than
+              one quarter (23%) of principals reported having a mentor or coach
+              in the past 2 years—and this percentage was lower for principals
+              in high-poverty schools (10%),{" "}
+              <a
+                href="https://learningpolicyinstitute.org/product/elementary-school-principals-professional-learning-report"
+                className="text-blue-600"
+              >
+                {" "}
+                according to a study conducted by the National Association of
+                Elementary School Principals (NAESP) and the Learning Policy
+                Institute (LPI).
+              </a>
+              EdSpring Solutions can provide valuable support and coaching to
+              school leaders as they work to create equitable learning outcomes
+              for all students.
+            </p>
+          </div>
+          <div className="col-span-1">
+            <img
+              src="https://img.freepik.com/free-photo/still-life-graphics-arrangement_23-2148991190.jpg?w=360&t=st=1677497151~exp=1677497751~hmac=7748304d4db9cbff7aae0bd14c5a0b854117b1e1be6868d6f98e415ff9240b4e"
+              alt=""
+            />
+            
+            <p className="text-xs text-gray-500 opacity-40">
+              Image by{" "}
+              <a href="https://www.freepik.com/free-photo/still-life-graphics-arrangement_14959280.htm#query=growth&position=3&from_view=search&track=sph">
+                Freepik
+              </a>
+            </p>
+          </div>
+        </div>
 
         <p className="block my-6">
           <span className="font-bold block text-xl text-center">
