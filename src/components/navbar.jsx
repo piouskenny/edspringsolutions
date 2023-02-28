@@ -101,6 +101,7 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
+              
               href="services"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
@@ -115,7 +116,7 @@ const Navbar = () => {
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
-              Porfolio
+              Porfolios
             </a>
           </li>
           <li className="mx-4 my-6">

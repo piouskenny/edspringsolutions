@@ -1,20 +1,47 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
 import ComponetImage from "./cpmponents.jpg";
+import BlackandWhite from "../media/morepictures/blackandwhite.jpg";
+import Team from "../media/morepictures/team.jpg";
+import FocusArea from "../media/morepictures/childrenhandup.jpg";
+import ChildrenVideos from "../media/videos/video of teacher.mp4";
+
+const cardsData = [
+  {
+    title: "Educators",
+    color: "bg-green-500",
+  },
+  {
+    title: "School Administrators",
+    color: "bg-blue-500",
+  },
+  {
+    title: "Service Providers",
+    color: "bg-orange-400",
+  },
+  {
+    title: "Paraprofessionals",
+    color: "bg-gray-500",
+  },
+];
+
 const BuidingComponents = () => {
   return (
     <>
       <Navbar />
       <div className="md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 bg-white h-fit">
-        <h1 className="text-center text-orange-400 uppercase font-medium text-4xl">
+        <h1 className="text-center text-orange-400 uppercase font-medium text-2xl">
           Services
         </h1>
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
           Building Components
         </h1>
-
-        <div className="grid grid-cols-2 gap-20">
-          <div className="col-span-1">
+        <div className="flex justify-center">
+        {/* <img src={Team} alt="" className="md:w-fit md:h-[500px]"/> */}
+        </div>
+        
+        <div className="md:grid md:grid-cols-2 gap-10">
+          <div className="col-span-1 text-lg">
             <p className="block my-6">
               <span className="font-bold block">
                 Professional Learning Opportunities for Instructional Staff:
@@ -44,8 +71,9 @@ const BuidingComponents = () => {
               research and are designed to be relevant, differentiated,
               engaging, and effective.
             </p>
-
-            <p className="block my-6">
+          </div>
+          <div className="col-span-1 text-lg">
+          <p className="block my-6">
               <span className="font-bold block">
                 Leadership Support and Coaching:
               </span>
@@ -76,19 +104,6 @@ const BuidingComponents = () => {
               for all students.
             </p>
           </div>
-          <div className="col-span-1">
-            <img
-              src="https://img.freepik.com/free-photo/still-life-graphics-arrangement_23-2148991190.jpg?w=360&t=st=1677497151~exp=1677497751~hmac=7748304d4db9cbff7aae0bd14c5a0b854117b1e1be6868d6f98e415ff9240b4e"
-              alt=""
-            />
-            
-            <p className="text-xs text-gray-500 opacity-40">
-              Image by{" "}
-              <a href="https://www.freepik.com/free-photo/still-life-graphics-arrangement_14959280.htm#query=growth&position=3&from_view=search&track=sph">
-                Freepik
-              </a>
-            </p>
-          </div>
         </div>
 
         <p className="block my-6">
@@ -104,18 +119,18 @@ const BuidingComponents = () => {
           Source: Learning Policy Institute.
         </p>
 
-        <div className="my-6  bg-gray-100 mx-0 p-12">
-          <h1 className="text-2xl my-4 font-bold text-center">
+        <div className="my-6  mx-0">
+          <h1 className="text-center text-blue-500 text-2xl my-4">
             Training and Coaching Offerings{" "}
           </h1>
-          <div className="lg:grid md:grid-cols-3 gap-4 my-12">
-            <div className="col-span-2">
+          <div className="lg:grid md:grid-cols-2 gap-4 my-12">
+            <div className="col-span-1">
               <h1 className="font-medium text-lg mt-4">
                 Our professional learning opportunities are delivered through a
                 variety of formats:
               </h1>
-              <h1 className="font-bold text-lg mt-4">&rarr; Training</h1>
-              <ul className="list-decimal">
+              <h1 className="font-bold text-lg mt-4">Training</h1>
+              <ul className="list-disc">
                 <li>On-site professional development sessions</li>
                 <li>
                   Online courses: Self-paced, on-demand learning opportunities
@@ -127,80 +142,184 @@ const BuidingComponents = () => {
                 </li>
               </ul>
 
-              <h1 className="font-bold text-lg mt-4">&rarr; Coaching</h1>
-              <ul className="list-decimal">
+              <h1 className="font-bold text-lg mt-4">Coaching</h1>
+              <ul className="list-disc">
                 <li>
                   In-person and virtual instructional practice-based coaching
                 </li>
                 <li>In-person and virtual leadership support and coaching </li>
               </ul>
             </div>
+
             <div className="col-span-1 md:mt-0 mt-6 ">
-              <div className="bg-[#ead1dc] px-12 py-10  ">
-                <ul className="list-disc">
-                  <li>Educators</li>
-                  <li>School Administrators</li>
-                  <li>Service Providers</li>
-                  <li>Paraprofessionalss</li>
-                </ul>
-              </div>
+              <img src={BlackandWhite} alt="" />
+            </div>
+          </div>
+
+          <h1 className="text-center text-blue-500 text-2xl my-4">
+            Our Audience
+          </h1>
+
+          {/* Desktop */}
+          <div
+            className="  justify-center items-center h-fit hidden md:flex "
+            style={{
+              backgroundImage: `url(${FocusArea})`,
+              backgroundPosition: 'center',
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 139, 0.5)",
+              backgroundSize: "cover",
+            }}
+          >
+            <div className="flex w-fit max-w-6xl my-10">
+              {cardsData.map((card) => (
+                <div
+                  key={card.title}
+                  className={` bg-opacity-80 rounded-lg overflow-hidden ${card.color} w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 transition-all duration-400 transform hover:-translate-y-6`}
+                >
+                  <div className="p-4">
+                    <h2 className="text-2xl text-white font-bold my-4 text-center">
+                      {card.title}
+                    </h2>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile */}
+          <div
+            className=" flex justify-center items-center h-fit md:hidden mt-10 py-16"
+            style={{
+              backgroundImage: `url(${FocusArea})`,
+              backgroundPosition: 'center',
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 139, 0.5)",
+              backgroundSize: "cover",
+            }}
+          >
+            <div className="flex flex-wrap w-fit max-w-4xl z-1">
+              {cardsData.map((card) => (
+                <div
+                  key={card.title}
+                  className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6  duration-300 transform hover:-translate-y-2`}
+                >
+                  <div className="p-4">
+                    <h2 className="text-2xl text-white font-bold my-6">
+                      {card.title}
+                    </h2>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
 
-        <div className="lg:grid grid-cols-2 gap-4">
+        <div className="lg:grid grid-cols-2 gap-4 items-center">
           <div className="my-6 col-span-1 ">
-            <h1 className="text-xl uppercase mb-4 font-bold">
-              EdSpring Solutions professional learning offerings are designed to
-              be:
-            </h1>
-            <ul className="my-6">
-              <li className="my-2">&rarr; Relevant</li>
-              <li className="my-2">&rarr; Engaging</li>
-              <li className="my-2">&rarr; Coherent</li>
-              <li className="my-2">&rarr; Targeted</li>
-              <li className="my-2">&rarr; Data-driven</li>
-              <li className="my-2">&rarr; Differentiated</li>
-              <li className="my-2">&rarr; Collaborative</li>
+            <ul className="my-6 text-center p-5 text-white text-lg">
+              <h1 className="text-blue-500 text-2xl my-4">
+                EdSpring Solutions professional learning offerings are designed
+                to be:
+              </h1>
+              <li className="my-2 rounded-md bg-orange-400"> Relevant</li>
+              <li className="my-2 rounded-md bg-blue-500"> Engaging</li>
+              <li className="my-2 rounded-md bg-green-500"> Coherent</li>
+              <li className="my-2 rounded-md bg-orange-400"> Targeted</li>
+              <li className="my-2 rounded-md bg-blue-500"> Data-driven</li>
+              <li className="my-2 rounded-md bg-green-500"> Differentiated</li>
+              <li className="my-2 rounded-md bg-orange-400"> Collaborative</li>
             </ul>
           </div>
 
           <div className="my-6 col-span-1 ">
-            <h1 className="text-xl uppercase mb-4 font-bold">Focus Areas</h1>
-            <ul className="my-6">
-              <li className="my-2">
-                &rarr; Special Education Support and Services
-              </li>
-              <li className="my-2">
-                &rarr; English Learners (Multilingual Learners)
-              </li>
-              <li className="my-2">&rarr; Inclusion and Inclusive Practices</li>
-              <li className="my-2">&rarr; Classroom Management</li>
-              <li className="my-2">
-                &rarr; Evidence-Based Behavior Interventions
-              </li>
-              <li className="my-2">
-                &rarr; Multi-Tiered System of Supports (MTSS)
-              </li>
-              <li className="my-2">&rarr; Differentiated Instruction</li>
-              <li className="my-2">
-                &rarr; Universal Design for Learning (UDL)
-              </li>
-              <li className="my-2">&rarr; Trauma-Informed Teaching</li>
-              <li className="my-2">
-                &rarr; Culturally Responsive and Sustaining Education
-              </li>
-              <li className="my-2">&rarr; Co-Teaching and Collaboration </li>
-              <li className="my-2">&rarr; Social-Emotional Learning (SEL)</li>
-              <li className="my-2">&rarr; Early Childhood Education</li>
-              <li className="my-2">&rarr; Technology Integration </li>
-              <li className="my-2">&rarr; Special Education Compliance </li>
-              <li className="my-2">&rarr; Section 504 Compliance </li>
-              <li className="my-2">&rarr; English Learners (EL) Compliance </li>
-              <li className="my-2">&rarr; Parent Engagement </li>
-            </ul>
+            <video src={ChildrenVideos} type="" controls  autoPlay/>
           </div>
         </div>
+        <h1 className="text-blue-500 text-2xl my-4 text-center md:mt-0">
+          Focus Areas
+        </h1>
+
+
+        <div className="my-6 col-span-1 ">
+            {/* <img src={FocusArea} alt="" /> */}
+          </div>
+
+
+   
+            <ul className="my-6 text-md list-disc text-white">
+              <div className="md:grid grid-cols-4 gap-4">
+                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
+                  <li className="my-2 rounded-md ">
+                    Special Education Support and Services
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    English Learners (Multilingual Learners)
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Inclusion and Inclusive Practices
+                  </li>
+                  <li className="my-2 rounded-md "> Classroom Management</li>
+                  <li className="my-2 rounded-md ">
+                    Evidence-Based Behavior Interventions
+                  </li>
+                </div>
+                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
+                <li className="my-2 rounded-md ">
+                    {" "}
+                    Trauma-Informed Teaching
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    Multi-Tiered System of Supports (MTSS)
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Differentiated Instruction
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    Universal Design for Learning (UDL)
+                  </li>
+                </div>
+                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
+
+                  <li className="my-2 rounded-md ">
+                    Culturally Responsive and Sustaining Education
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Co-Teaching and Collaboration{" "}
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Social-Emotional Learning (SEL)
+                  </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Early Childhood Education
+                  </li>
+                </div>
+                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
+
+                  <li className="my-2 rounded-md "> Technology Integration </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Special Education Compliance{" "}
+                  </li>
+                  <li className="my-2 rounded-md "> Section 504 Compliance </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    English Learners (EL) Compliance{" "}
+                  </li>
+                  <li className="my-2 rounded-md "> Parent Engagement </li>
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    Education in Fragile and Conflict Contexts{" "}
+                  </li>
+                </div>
+              </div>
+            </ul>
+
       </div>
       <Footer />
     </>
