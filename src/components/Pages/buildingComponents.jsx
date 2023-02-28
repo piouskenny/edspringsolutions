@@ -37,10 +37,10 @@ const BuidingComponents = () => {
           Building Components
         </h1>
         <div className="flex justify-center">
-        {/* <img src={Team} alt="" className="md:w-fit md:h-[500px]"/> */}
+          {/* <img src={Team} alt="" className="md:w-fit md:h-[500px]"/> */}
         </div>
-        
-        <div className="md:grid md:grid-cols-2 gap-10">
+
+        <div className="md:grid md:grid-cols-2 gap-10 items-center">
           <div className="col-span-1 text-lg">
             <p className="block my-6">
               <span className="font-bold block">
@@ -73,7 +73,13 @@ const BuidingComponents = () => {
             </p>
           </div>
           <div className="col-span-1 text-lg">
-          <p className="block my-6">
+            <img src={Team} alt=""  />
+          </div>
+        </div>
+
+        <div className=" my-6 mb-12">
+          <div className="col-span-1 text-lg">
+            <p className="block my-6">
               <span className="font-bold block">
                 Leadership Support and Coaching:
               </span>
@@ -165,7 +171,7 @@ const BuidingComponents = () => {
             className="  justify-center items-center h-fit hidden md:flex "
             style={{
               backgroundImage: `url(${FocusArea})`,
-              backgroundPosition: 'center',
+              backgroundPosition: "center",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 139, 0.5)",
               backgroundSize: "cover",
@@ -192,7 +198,7 @@ const BuidingComponents = () => {
             className=" flex justify-center items-center h-fit md:hidden mt-10 py-16"
             style={{
               backgroundImage: `url(${FocusArea})`,
-              backgroundPosition: 'center',
+              backgroundPosition: "center",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 139, 0.5)",
               backgroundSize: "cover",
@@ -233,93 +239,78 @@ const BuidingComponents = () => {
           </div>
 
           <div className="my-6 col-span-1 ">
-            <video src={ChildrenVideos} type="" controls  autoPlay/>
+            <video src={ChildrenVideos} type="" controls autoPlay />
           </div>
         </div>
         <h1 className="text-blue-500 text-2xl my-4 text-center md:mt-0">
           Focus Areas
         </h1>
 
-
         <div className="my-6 col-span-1 ">
-            {/* <img src={FocusArea} alt="" /> */}
+          {/* <img src={FocusArea} alt="" /> */}
+        </div>
+
+        <ul className="my-6 text-md list-disc text-white">
+          <div className="md:grid grid-cols-4 gap-4">
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
+              <li className="my-2 rounded-md ">
+                Special Education Support and Services
+              </li>
+              <li className="my-2 rounded-md ">
+                English Learners (Multilingual Learners)
+              </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                Inclusion and Inclusive Practices
+              </li>
+              <li className="my-2 rounded-md "> Classroom Management</li>
+              <li className="my-2 rounded-md ">
+                Evidence-Based Behavior Interventions
+              </li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
+              <li className="my-2 rounded-md "> Trauma-Informed Teaching</li>
+              <li className="my-2 rounded-md ">
+                Multi-Tiered System of Supports (MTSS)
+              </li>
+              <li className="my-2 rounded-md "> Differentiated Instruction</li>
+              <li className="my-2 rounded-md ">
+                Universal Design for Learning (UDL)
+              </li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
+              <li className="my-2 rounded-md ">
+                Culturally Responsive and Sustaining Education
+              </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                Co-Teaching and Collaboration{" "}
+              </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                Social-Emotional Learning (SEL)
+              </li>
+              <li className="my-2 rounded-md "> Early Childhood Education</li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
+              <li className="my-2 rounded-md "> Technology Integration </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                Special Education Compliance{" "}
+              </li>
+              <li className="my-2 rounded-md "> Section 504 Compliance </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                English Learners (EL) Compliance{" "}
+              </li>
+              <li className="my-2 rounded-md "> Parent Engagement </li>
+              <li className="my-2 rounded-md ">
+                {" "}
+                Education in Fragile and Conflict Contexts{" "}
+              </li>
+            </div>
           </div>
-
-
-   
-            <ul className="my-6 text-md list-disc text-white">
-              <div className="md:grid grid-cols-4 gap-4">
-                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
-                  <li className="my-2 rounded-md ">
-                    Special Education Support and Services
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    English Learners (Multilingual Learners)
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Inclusion and Inclusive Practices
-                  </li>
-                  <li className="my-2 rounded-md "> Classroom Management</li>
-                  <li className="my-2 rounded-md ">
-                    Evidence-Based Behavior Interventions
-                  </li>
-                </div>
-                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
-                <li className="my-2 rounded-md ">
-                    {" "}
-                    Trauma-Informed Teaching
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    Multi-Tiered System of Supports (MTSS)
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Differentiated Instruction
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    Universal Design for Learning (UDL)
-                  </li>
-                </div>
-                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
-
-                  <li className="my-2 rounded-md ">
-                    Culturally Responsive and Sustaining Education
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Co-Teaching and Collaboration{" "}
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Social-Emotional Learning (SEL)
-                  </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Early Childhood Education
-                  </li>
-                </div>
-                <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
-
-                  <li className="my-2 rounded-md "> Technology Integration </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Special Education Compliance{" "}
-                  </li>
-                  <li className="my-2 rounded-md "> Section 504 Compliance </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    English Learners (EL) Compliance{" "}
-                  </li>
-                  <li className="my-2 rounded-md "> Parent Engagement </li>
-                  <li className="my-2 rounded-md ">
-                    {" "}
-                    Education in Fragile and Conflict Contexts{" "}
-                  </li>
-                </div>
-              </div>
-            </ul>
-
+        </ul>
       </div>
       <Footer />
     </>
