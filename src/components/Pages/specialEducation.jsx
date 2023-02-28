@@ -1,5 +1,6 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
+import ChildndFather from "../media/videos/Pexels Videos 1580507.mp4";
 
 const SpecialEducation = () => {
   return (
@@ -13,9 +14,9 @@ const SpecialEducation = () => {
           Special Education Advocacy for Families
         </h1>
 
-        <div className="lg:grid md:grid-cols-3 gap-4 my-12">
-          <div className="col-span-2">
-            <p className="my-6">
+        <div className="lg:grid md:grid-cols-2 gap-4 mb-12 items-center">
+          <div className="col-span-1 text-lg">
+            <p className="my-6 ">
               Navigating the special education process can be overwhelming and
               challenging for parents and caregivers of children with special
               needs. In a study conducted by the National Center for Learning
@@ -34,34 +35,44 @@ const SpecialEducation = () => {
               IEP meetings, addressing behavioral concerns, and so on.
             </p>
           </div>
+
           <div className="col-span-1 md:mt-0 mt-6 ">
-            <div className="bg-[#ead1dc] px-12 py-10  ">
-              <p>
-                Some common challenges that parents and caregivers may face
-                include:
-              </p>
-              <ul className="list-disc">
-                <li>
-                  Understanding their rights under federal and state laws
-                  governing special education{" "}
-                </li>
-                <li>
-                  Navigating the eligibility process for special education
-                  services{" "}
-                </li>
-                <li>
-                  Understanding the various types of services and supports
-                  available to their child
-                </li>
-                <li>
-                  Communicating effectively with teachers and other school staff
-                  about their child's needs and progress
-                </li>
-                <li></li>
-              </ul>
-            </div>
+            <video src={ChildndFather} alt="" autoPlay controls ></video>
           </div>
         </div>
+        <h1 className="text-center my-8 text-2xl text-blue-500">
+          Some common challenges that parents and caregivers may face include:
+        </h1>
+        <ul className="my-6 text-lg  text-white">
+          <div className="md:grid grid-cols-4 gap-4">
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
+              <li className="my-2 rounded-md ">
+                Understanding their rights under federal and state laws
+                governing special education
+              </li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
+              <li className="my-2 rounded-md ">
+                {" "}
+                Navigating the eligibility process for special education
+                services
+              </li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
+              <li className="my-2 rounded-md ">
+                Understanding the various types of services and supports
+                available to their child
+              </li>
+            </div>
+            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
+              <li className="my-2 rounded-md ">
+                {" "}
+                Communicating effectively with teachers and other school staff
+                about their child's needs and progress{" "}
+              </li>
+            </div>
+          </div>
+        </ul>
       </div>
       <Footer />
     </>

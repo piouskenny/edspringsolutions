@@ -36,9 +36,6 @@ const BuidingComponents = () => {
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
           Building Components
         </h1>
-        <div className="flex justify-center">
-          {/* <img src={Team} alt="" className="md:w-fit md:h-[500px]"/> */}
-        </div>
 
         <div className="md:grid md:grid-cols-2 gap-10 items-center">
           <div className="col-span-1 text-lg">

@@ -1,6 +1,7 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
 import TeacherndChild from "../media/morepictures/childshaketeacjer.jpg";
+
 const SPecialEducation504 = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const SPecialEducation504 = () => {
 
         <div className="md:grid grid-cols-2 gap-10 items-center">
           <div className="col-span-1">
-            <p className="block my-6">
+            <p className="block my-6 text-lg">
               Ensuring compliance with special education laws and regulations is
               a challenge faced by many schools, and noncompliance remains a
               widespread issue due to the complexity of special education laws
