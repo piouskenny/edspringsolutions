@@ -112,6 +112,16 @@ const Navbar = () => {
           <li className="mx-4 my-6">
             <a
               
+              href="#"
+              className="hover:text-orange-400 text-lg"
+              onClick={handleclick}
+            >
+              Insights
+            </a>
+          </li>
+          <li className="mx-4 my-6">
+            <a
+              
               href="/#porfolios"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
