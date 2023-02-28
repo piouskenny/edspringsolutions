@@ -30,14 +30,15 @@ const Founder = () => {
               teaching multilingual learners, culturally sustaining pedagogy,
               Multi-Tiered System of Supports (MTSS), behavior supports and
               interventions, differentiated instruction, Universal Design for
-              Learning (UDL), school leadership, and compliance. Having worked
+              Learning (UDL), school leadership, and compliance. <span className="hidden md:block">
+              Having worked
               in both K–12 and higher education settings, Dr. Taiwo is deeply
               committed to empowering stakeholders in education to achieve
               equitable learning outcomes for all students, with a focus on
               driving systemic change and creating opportunities for all
-              students to flourish.
+              students to flourish.</span> 
               <Link to="/aboutMore/#founder">
-                <button className="block bg-white px-4 mt-6 py-2bg-white px-4 mt-6 py-2 border-lg border border-blue-500 rounded-lg md:rounded-xl text-blue-500 hover:bg-white hover:text-blue-400">
+                <button className="block bg-white py-2bg-white px-4 mt-6 py-2 border-lg border border-blue-500 rounded-lg md:rounded-xl text-blue-500 hover:bg-white hover:text-blue-400">
                   More About Dr. Emmanuel &rarr;
                 </button>
               </Link>

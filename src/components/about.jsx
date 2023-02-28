@@ -29,7 +29,7 @@ const About = () => {
                 our clients to proffer actionable solutions that support the
                 achievement of all students.
               </p>
-              <p className="md:text-xl  text-gray-600 text-lg mt-4">
+              <p className="md:text-xl hidden md:block text-gray-600 text-lg mt-4">
                 Our team utilizes evidence-based practices and solution-oriented
                 approaches to promote high-quality education for all students
                 through our educational services. At the heart of our team's

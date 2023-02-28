@@ -6,12 +6,13 @@ const SpecialEducation = () => {
     <>
       <Navbar />
       <div className="md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 bg-white h-fit">
-        <h1 className="text-center text-[#426c91] uppercase font-medium text-xl">
+        <h1 className="text-center text-orange-400 uppercase font-medium text-2xl">
           Services
         </h1>
-        <h1 className="font-bold text-center text-3xl my-6">
+        <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
           Special Education Advocacy for Families
         </h1>
+
         <div className="lg:grid md:grid-cols-3 gap-4 my-12">
           <div className="col-span-2">
             <p className="my-6">
@@ -35,12 +36,27 @@ const SpecialEducation = () => {
           </div>
           <div className="col-span-1 md:mt-0 mt-6 ">
             <div className="bg-[#ead1dc] px-12 py-10  ">
-              <p>Some common challenges that parents and caregivers may face include:</p>
+              <p>
+                Some common challenges that parents and caregivers may face
+                include:
+              </p>
               <ul className="list-disc">
-                <li>Understanding their rights under federal and state laws governing special education </li>
-                <li>Navigating the eligibility process for special education services </li>
-                <li>Understanding the various types of services and supports available to their child</li>
-                <li>Communicating effectively with teachers and other school staff about their child's needs and progress</li>
+                <li>
+                  Understanding their rights under federal and state laws
+                  governing special education{" "}
+                </li>
+                <li>
+                  Navigating the eligibility process for special education
+                  services{" "}
+                </li>
+                <li>
+                  Understanding the various types of services and supports
+                  available to their child
+                </li>
+                <li>
+                  Communicating effectively with teachers and other school staff
+                  about their child's needs and progress
+                </li>
                 <li></li>
               </ul>
             </div>
