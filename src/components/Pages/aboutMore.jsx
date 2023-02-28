@@ -86,6 +86,12 @@ const AboutMore = () => {
                 alt=""
                 className="h-fit w-fit"
               />
+              <p className="text-xs text-gray-500 opacity-40">
+                <a href="https://www.freepik.com/free-photo/businessman-showing-changes-report_868124.htm#query=Consultant&position=12&from_view=search&track=sph">
+                  Image by pressfoto
+                </a>{" "}
+                on Freepik
+              </p>
             </div>
           </div>
 
@@ -156,12 +162,6 @@ const AboutMore = () => {
             md:h-[550px] md:w-[550px] 
             h-full w-full"
                 />
-              <p className="text-xs text-gray-500 opacity-40">
-                <a href="https://www.freepik.com/free-photo/businessman-showing-changes-report_868124.htm#query=Consultant&position=12&from_view=search&track=sph">
-                  Image by pressfoto
-                </a>{" "}
-                on Freepik
-              </p>
               </div>
               <div className="lg:col-span-1 lg:mt-10">
                 <p className="md:text-xl font-light text-gray-600 text-lg mt-12">

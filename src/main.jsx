@@ -15,7 +15,7 @@ import {
 
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([    
   {
     path: "/",
     element: <App />,

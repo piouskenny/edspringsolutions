@@ -10,7 +10,7 @@ const Partners = () => {
         className=" w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
       >
         <div className="md:mx-40">
-          <h1 className="text-4xl text-center text-gray-800 font-semibold">
+          <h1 className="text-4xl text-center text-blue-500 font-medium">
             Portfolio
           </h1>
         </div>
