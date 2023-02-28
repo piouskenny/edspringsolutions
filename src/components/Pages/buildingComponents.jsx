@@ -29,7 +29,7 @@ const BuidingComponents = () => {
   return (
     <>
       <Navbar />
-      <div className="md:px-32 md:pb-10 md:pt-10 pt-28 pb-12 px-6 bg-white h-fit">
+      <div className="md:px-32 md:pb-10 md:pt-10 pt-20 pb-12 px-6 bg-white h-fit">
         <h1 className="text-center text-orange-400 uppercase font-medium text-2xl">
           Services
         </h1>
@@ -208,7 +208,7 @@ const BuidingComponents = () => {
               {cardsData.map((card) => (
                 <div
                   key={card.title}
-                  className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6  duration-300 transform hover:-translate-y-2`}
+                 className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6`}
                 >
                   <div className="p-4">
                     <h2 className="text-2xl text-white font-bold my-6">

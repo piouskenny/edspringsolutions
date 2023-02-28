@@ -130,7 +130,7 @@ const AboutMore = () => {
               {cardsData.map((card) => (
                 <div
                   key={card.title}
-                  className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6  duration-300 transform hover:-translate-y-2`}
+                  className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6 `}
                 >
                   <div className="p-4">
                     <h2 className="text-2xl text-white font-bold my-6">
