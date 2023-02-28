@@ -128,29 +128,26 @@ const BuidingComponents = () => {
           </h1>
           <div className="lg:grid md:grid-cols-2 gap-4 my-12">
             <div className="col-span-1">
-              <h1 className="font-medium text-lg mt-4">
+              <h1 className="font-medium text-blue-500 text-lg mt-4">
                 Our professional learning opportunities are delivered through a
                 variety of formats:
               </h1>
-              <h1 className="font-bold text-lg mt-4">Training</h1>
-              <ul className="list-disc">
-                <li>On-site professional development sessions</li>
-                <li>
-                  Online courses: Self-paced, on-demand learning opportunities
+              <h1 className="font-bold text-xl mt-4 text-green-500">Training</h1>
+              <ul className="">
+                <li className="my-2"><span className="text-bold">#</span> On-site professional development sessions</li>
+                <li className="my-2"><span className="text-bold">#</span> Online courses: Self-paced, on-demand learning opportunities
                   that you can access anytime
                 </li>
-                <li>
-                  Live or recorded training sessions and workshops facilitated
+                <li className="my-2"><span className="text-bold">#</span> Live or recorded training sessions and workshops facilitated
                   by an EdSpring Solutions specialist
                 </li>
               </ul>
 
-              <h1 className="font-bold text-lg mt-4">Coaching</h1>
-              <ul className="list-disc">
-                <li>
-                  In-person and virtual instructional practice-based coaching
+              <h1 className="font-bold text-xl mt-4 text-green-500">Coaching</h1>
+              <ul className="">
+                <li className="my-2"><span className="text-bold">#</span> In-person and virtual instructional practice-based coaching
                 </li>
-                <li>In-person and virtual leadership support and coaching </li>
+                <li className="my-2"><span className="text-bold">#</span> In-person and virtual leadership support and coaching </li>
               </ul>
             </div>
 
@@ -236,7 +233,7 @@ const BuidingComponents = () => {
           </div>
 
           <div className="my-6 col-span-1 ">
-            <video src={ChildrenVideos} type="" controls autoPlay />
+            <video src={ChildrenVideos} type="" controls autoPlay loop/>
           </div>
         </div>
         <h1 className="text-blue-500 text-2xl my-4 text-center md:mt-0">

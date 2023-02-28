@@ -11,7 +11,7 @@ const SystemAndProgramPlanning = () => {
           Services
         </h1>
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
-          Special Education Advocacy for Families
+        System & Program Planning
         </h1>
 
         <div className="md:grid grid-cols-2 gap-10">

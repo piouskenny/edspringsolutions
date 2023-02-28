@@ -1,6 +1,6 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
-import ChildndFather from "../media/videos/Pexels Videos 1580507.mp4";
+import ChildndFather from "../media/videos/father.mp4";
 
 const SpecialEducation = () => {
   return (
@@ -37,7 +37,7 @@ const SpecialEducation = () => {
           </div>
 
           <div className="col-span-1 md:mt-0 mt-6 ">
-            <video src={ChildndFather} alt="" autoPlay controls ></video>
+            <video src={ChildndFather} muted alt="" autoPlay controls loop ></video>
           </div>
         </div>
         <h1 className="text-center my-8 text-2xl text-blue-500">
