@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Logo.png";
+import Logo from "./Logo-white.png";
 
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0  rounded-lg shadow-lg lg:shadow-xl p-6">
           <img src={Logo} alt="" />
-          <h3 className="text-2xl font-bold mb-4">Ed Spring Solutions</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center mt-10">Ed Spring Solutions</h3>
         </div>
         <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0  rounded-lg shadow-lg lg:shadow-xl p-6">
           <h3 className="text-lg font-bold mb-4">Links</h3>
