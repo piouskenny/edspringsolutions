@@ -21,7 +21,7 @@ const Services = () => {
         <h1 className=" text-center font-bold text-4xl mb-6">Services</h1>
 
         {/* Mobile */}
-        <div className="md:hidden  -mx-4  ">
+        <div className="md:hidden  -mx-4  p-6">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
               <a href="#">

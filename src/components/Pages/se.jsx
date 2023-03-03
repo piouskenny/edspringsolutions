@@ -15,6 +15,9 @@ const SPecialEducation504 = () => {
         </h1>
 
         <div className="md:grid grid-cols-2 gap-10 items-center">
+        <div className="col-span-1  md:hidden">
+            <img src={TeacherndChild} alt="" />
+          </div>
           <div className="col-span-1">
             <p className="block my-6 text-lg">
               Ensuring compliance with special education laws and regulations is
@@ -30,7 +33,7 @@ const SPecialEducation504 = () => {
               meet the needs of students with IEPs and 504 plans.
             </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 hidden md:block">
             <img src={TeacherndChild} alt="" />
           </div>
         </div>

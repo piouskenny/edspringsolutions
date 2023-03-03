@@ -1,6 +1,7 @@
 import Logo from "../assets/logo_.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ImageLogo from "./Logo.png";
 
 const Navbar = () => {
   const [navbtn, setNavbtn] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <h1 className="font-bold uppercase p-4 md:text-2xl">
           <Link target="_parent" href="#" className="text-blue-500">
-            EdSpring Solutions
+            <img src={ImageLogo} alt="" className="md:w-30 md:h-12 h-8" />
           </Link>
         </h1>
 
@@ -39,7 +40,7 @@ const Navbar = () => {
           <div onClick={() => setNavbtn((current) => !current)}>
             {!navbtn ? (
               <svg
-                className="w-6 h-6"
+                className="w-6 h-6 text-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -59,7 +60,7 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="w-6 h-6"
+                className="w-6 h-6 text-blue-500"
               >
                 <path
                   stroke-linecap="round"
@@ -101,7 +102,6 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              
               href="/#services"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
@@ -111,7 +111,6 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              
               href="#"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
@@ -121,7 +120,6 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-              
               href="/#porfolios"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
@@ -131,7 +129,6 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <a
-           
               href="/#contact"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}

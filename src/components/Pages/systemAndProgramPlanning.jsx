@@ -13,7 +13,9 @@ const SystemAndProgramPlanning = () => {
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
         System & Program Planning
         </h1>
-
+        <div className="col-span-1 md:hidden">
+            <img src={Planning} alt="" />
+          </div>
         <div className="md:grid grid-cols-2 gap-10">
           <div className="col-span-1">
             <p className="block my-6 text-lg">
@@ -31,7 +33,7 @@ const SystemAndProgramPlanning = () => {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 hidden md:block">
             <img src={Planning} alt="" />
           </div>
         </div>

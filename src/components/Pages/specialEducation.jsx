@@ -15,6 +15,16 @@ const SpecialEducation = () => {
         </h1>
 
         <div className="lg:grid md:grid-cols-2 gap-4 mb-12 items-center">
+          <div className="col-span-1 md:mt-0 mt-6  md:hidden">
+            <video
+              src={ChildndFather}
+              muted
+              alt=""
+              autoPlay
+              controls
+              loop
+            ></video>
+          </div>
           <div className="col-span-1 text-lg">
             <p className="my-6 ">
               Navigating the special education process can be overwhelming and
@@ -36,8 +46,15 @@ const SpecialEducation = () => {
             </p>
           </div>
 
-          <div className="col-span-1 md:mt-0 mt-6 ">
-            <video src={ChildndFather} muted alt="" autoPlay controls loop ></video>
+          <div className="col-span-1 md:mt-0 mt-6 hidden md:block">
+            <video
+              src={ChildndFather}
+              muted
+              alt=""
+              autoPlay
+              controls
+              loop
+            ></video>
           </div>
         </div>
         <h1 className="text-center my-8 text-2xl text-blue-500">
