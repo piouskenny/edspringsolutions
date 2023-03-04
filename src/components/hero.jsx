@@ -10,6 +10,7 @@ const Hero = () => {
         h-fit
          text-white
         text-center
+        md:pb-0
       "
         style={{
           backgroundImage: `url(${HeroImage})`,
@@ -19,11 +20,13 @@ const Hero = () => {
         <div
           className="bg-gray-900 bg-opacity-60 md:bg-opacity-70
          md:px-10 md:pb-40 md:pt-20  px-6 md:bg-cover bg-contain
-         h-[60vh]
+         h-[60vh] 
+  
          md:h-screen"
+         
     
         >
-          <div id="content" className="md:mt-28 md:mb-0 text-center pt-24 pb-10 md:pt-0">
+          <div id="content" className="md:mt-28 md:mb-0 text-center pt-24 md:pt-0 ">
             <h1 className="text-6xl md:text-9xl font-bold text-center text-blue-400 cursor-pointer hover:text-green-400">
               EdSpring <span className="text-green-400  hover:text-blue-500">
                Solutions
@@ -33,11 +36,14 @@ const Hero = () => {
               Transforming Education with Innovative Solutions, Improving
               Student Outcomes
             </h1>
-            <a href="#contact">
-              <button className="cursor-pointer transform hover:scale-125 text-white  px-4 mt-10 py-2 border-md border  border-blue-400 rounded-lg md:rounded-xl  hover:border-blue-500">
+            <a href="#contact" >
+              <button className="cursor-pointer transform hover:scale-125 text-white px-4 mt-10 py-2 border-md border  border-blue-400 rounded-lg md:rounded-xl  hover:border-blue-500">
                 Schedule a meeting now &rarr;
               </button>
             </a>
+            <div className="my-10 md:hidden">
+
+            </div>
           </div>
         </div>
       </div>
