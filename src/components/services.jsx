@@ -24,7 +24,7 @@ const Services = () => {
         <div className="md:hidden  -mx-4  p-6">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <Link target="_parent" to="/buildingComponents" >
+              <Link target="_parent" to="/capacityBuilding" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -35,7 +35,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/buildingComponents" className="text-white hover:text-orange-400" >
+                  <Link target="_parent" to="/capacityBuilding" className="text-white hover:text-orange-400" >
                     Capacity Building
                   </Link>
                 </div>
@@ -47,7 +47,7 @@ const Services = () => {
                   roles.
                 </p>
                 <Link
-                  to="/buildingComponents"
+                  to="/capacityBuilding"
                   target="_parent"
                   className="text-sm px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
@@ -158,7 +158,7 @@ const Services = () => {
         <div className="md:flex  -mx-4  hidden">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <Link target="_parent" to="/buildingComponents">
+              <Link target="_parent" to="/capacityBuilding">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -169,7 +169,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/buildingComponents" className="text-white hover:text-orange-400" >
+                  <Link target="_parent" to="/capacityBuilding" className="text-white hover:text-orange-400" >
                     Capacity Building
                   </Link>
                 </div>
@@ -181,7 +181,7 @@ const Services = () => {
                   roles.
                 </p>
                 <Link
-                  to="/buildingComponents"
+                  to="/capacityBuilding"
                   target="_parent"
                   className="text-sm px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >

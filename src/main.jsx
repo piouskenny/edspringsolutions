@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/buildingComponents",
+    path: "/capacityBuilding",
     element: <BuidingComponents />,
   },
   {

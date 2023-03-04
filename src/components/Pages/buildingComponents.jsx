@@ -6,6 +6,7 @@ import Team from "../media/morepictures/team.jpg";
 import FocusArea from "../media/morepictures/childrenhandup.jpg";
 import ChildrenVideos from "../media/videos/video of teacher.mp4";
 import Offering from "./offering";
+import FocusGif from "../hero-gif.gif";
 
 const cardsData = [
   {
@@ -79,7 +80,7 @@ const BuidingComponents = () => {
           <div className="col-span-1 text-lg">
             <p className="block my-6">
               <span className="font-bold block text-2xl mt-6 mb-2">
-                Leadership Support and Coaching:
+                Leadership Support and Coaching
               </span>
               Leadership coaching for school administration is becoming
               increasingly important as schools face a range of complex
@@ -250,7 +251,7 @@ const BuidingComponents = () => {
         <div
           className="bg-video my-10 pb-10"
           style={{
-            backgroundImage: `url(${ChildrenVideos})`,
+            backgroundImage: `url(${FocusGif})`,
             backgroundPosition: "center",
             backgroundBlendMode: "overlay",
             backgroundColor: "rgba(0, 0, 139, 0.5)",
