@@ -41,9 +41,9 @@ const Hero = () => {
                 Schedule a meeting now &rarr;
               </button>
             </a>
-            <div className="my-10 md:hidden">
-
-            </div>
+            <br/>
+             <br/>
+              <br/>
           </div>
         </div>
       </div>
