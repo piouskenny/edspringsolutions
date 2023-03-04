@@ -23,9 +23,9 @@ function Footer() {
             <li className="mb-2">
               <a href="/#services">Services</a>
             </li>
-            <li className="mb-2">
+            {/* <li className="mb-2">
               <a href="/#insights">Insights</a>
-            </li>
+            </li> */}
             <li className="mb-2">
               <a href="/#partners">Porfolio</a>
             </li>

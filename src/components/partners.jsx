@@ -1,6 +1,8 @@
 import Port1 from "../assets/portfolios/Port1.png";
 import Port2 from "../assets/portfolios/Port2.png";
 import Port3 from "../assets/portfolios/Port3.png";
+import Port4 from "../assets/portfolios/port4.png";
+import Port5 from "../assets/portfolios/port5.png";
 
 const Partners = () => {
   return (
@@ -15,44 +17,37 @@ const Partners = () => {
           </h1>
         </div>
 
-        <div className="port md:hidden text-center">
-          <div className="flex justify-between items-center gap-10">
+        <div className="grid grid-cols-3 text-center gap-12 my-10 items-center">
+          <div className="col-1">
             <img
               className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
               src={Port1}
               alt="Partner 1"
             />
-
+          </div>
+          <div className="col-1">
+            <img className="w-fit h-20" src={Port2} alt="Partner 2" />
+          </div>
+          <div className="col-1">
             <img
-              className="md:w-40 md:h-40 h-[60px] w-[100px]object-center my-6"
+              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
               src={Port3}
-              alt="Partner 3"
+              alt="Partner 1"
             />
-            
           </div>
-          <div className="flex justify-center items-center">
-          <img
-            className="md:w-40  md:h-40 h-[40px]"
-            src={Port2}
-            alt="Partner 2"
-          />
+          <div className="col-1">
+            <img
+              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+              src={Port4}
+              alt="Partner 1"
+            />
           </div>
-
-        </div>
-
-        <div className="flex justify-center items-center mt-6">
-          <div className=" hidden md:grid grid-cols-3 gap-12 items-center">
-            <div className="col-span-1  ">
-              <img className="w-30 h-40" src={Port1} alt="Partner 1" />
-            </div>
-
-            <div className="col-span-1  ml-16">
-              <img className="w-fit h-40" src={Port3} alt="Partner 3" />
-            </div>
-
-            <div className="col-span-1">
-              <img className="w-fit h-20" src={Port2} alt="Partner 2" />
-            </div>
+          <div className="col-1">
+            <img
+              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+              src={Port5}
+              alt="Partner 1"
+            />
           </div>
         </div>
       </section>

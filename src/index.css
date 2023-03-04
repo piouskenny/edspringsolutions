@@ -36,5 +36,5 @@ p {
 
 
 .image-border {
-  @apply rounded-tr-[70px] rounded-bl-[70px];
+  @apply rounded-tr-[40px] rounded-bl-[40px];
 }

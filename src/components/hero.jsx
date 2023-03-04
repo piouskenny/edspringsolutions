@@ -13,15 +13,18 @@ const Hero = () => {
       "
         style={{
           backgroundImage: `url(${HeroImage})`,
+          backgroundSize: "cover", 
         }}
       >
         <div
-          className="bg-gray-900 bg-opacity-40 md:bg-opacity-70
-         md:px-10 md:pb-40 md:pt-20 pt-40 pb-28 px-6
-         h-screen"
+          className="bg-gray-900 bg-opacity-60 md:bg-opacity-70
+         md:px-10 md:pb-40 md:pt-20  px-6 md:bg-cover bg-contain
+         h-[60vh]
+         md:h-screen"
+    
         >
-          <div id="content" className="md:mt-28 md:mb-0 text-center mt-[20%]">
-            <h1 className="text-7xl md:text-9xl font-bold text-center text-blue-400 cursor-pointer hover:text-green-400">
+          <div id="content" className="md:mt-28 md:mb-0 text-center pt-24 pb-10 md:pt-0">
+            <h1 className="text-6xl md:text-9xl font-bold text-center text-blue-400 cursor-pointer hover:text-green-400">
               EdSpring <span className="text-green-400  hover:text-blue-500">
                Solutions
               </span>

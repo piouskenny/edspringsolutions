@@ -17,7 +17,7 @@ const About = () => {
               <img
                 src={HeroImage}
                 alt=""
-                className="h-[340px] w-fill image-border"
+                className="h-[250px] w-fill image-border"
               />
             </div>
             <div className="col-span-1">

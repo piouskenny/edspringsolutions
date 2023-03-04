@@ -109,7 +109,7 @@ const Navbar = () => {
               Services
             </a>
           </li>
-          <li className="mx-4 my-6">
+          {/* <li className="mx-4 my-6">
             <a
               href="#"
               className="hover:text-orange-400 text-lg"
@@ -117,7 +117,7 @@ const Navbar = () => {
             >
               Insights
             </a>
-          </li>
+          </li> */}
           <li className="mx-4 my-6">
             <a
               href="/#porfolios"
