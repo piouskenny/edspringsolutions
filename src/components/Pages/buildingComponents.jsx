@@ -5,6 +5,7 @@ import BlackandWhite from "../media/morepictures/blackandwhite.jpg";
 import Team from "../media/morepictures/team.jpg";
 import FocusArea from "../media/morepictures/childrenhandup.jpg";
 import ChildrenVideos from "../media/videos/video of teacher.mp4";
+import Offering from "./offering";
 
 const cardsData = [
   {
@@ -34,14 +35,14 @@ const BuidingComponents = () => {
           Services
         </h1>
         <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
-          Building Components
+          Capacity Building
         </h1>
 
         <div className="md:grid md:grid-cols-2 gap-10 items-center">
           <div className="col-span-1 text-lg">
             <p className="block my-6">
-              <span className="font-bold block">
-                Professional Learning Opportunities for Instructional Staff:
+              <span className="font-bold block text-2xl mt-5 mb-2">
+                Professional Learning Opportunities for Instructional Staff
               </span>
               For instructional staff to create nurturing learning experiences
               for students, they require continuous professional learning
@@ -70,14 +71,14 @@ const BuidingComponents = () => {
             </p>
           </div>
           <div className="col-span-1 text-lg">
-            <img src={Team} alt=""  />
+            <img src={Team} alt="" />
           </div>
         </div>
 
         <div className=" my-6 mb-12">
           <div className="col-span-1 text-lg">
             <p className="block my-6">
-              <span className="font-bold block">
+              <span className="font-bold block text-2xl mt-6 mb-2">
                 Leadership Support and Coaching:
               </span>
               Leadership coaching for school administration is becoming
@@ -110,7 +111,7 @@ const BuidingComponents = () => {
         </div>
 
         <p className="block my-6">
-          <span className="font-bold block text-xl text-center">
+          <span className="font-bold block text-center text-2xl mt-6 mb-2">
             Components of High Quality Principal Professional Learning
           </span>
         </p>
@@ -132,22 +133,38 @@ const BuidingComponents = () => {
                 Our professional learning opportunities are delivered through a
                 variety of formats:
               </h1>
-              <h1 className="font-bold text-xl mt-4 text-green-500">Training</h1>
+              <h1 className="font-bold text-xl mt-4 text-green-500">
+                Training
+              </h1>
               <ul className="">
-                <li className="my-2"><span className="text-bold">#</span> On-site professional development sessions</li>
-                <li className="my-2"><span className="text-bold">#</span> Online courses: Self-paced, on-demand learning opportunities
-                  that you can access anytime
+                <li className="my-2">
+                  <span className="text-bold">#</span> On-site professional
+                  development sessions
                 </li>
-                <li className="my-2"><span className="text-bold">#</span> Live or recorded training sessions and workshops facilitated
-                  by an EdSpring Solutions specialist
+                <li className="my-2">
+                  <span className="text-bold">#</span> Online courses:
+                  Self-paced, on-demand learning opportunities that you can
+                  access anytime
+                </li>
+                <li className="my-2">
+                  <span className="text-bold">#</span> Live or recorded training
+                  sessions and workshops facilitated by an EdSpring Solutions
+                  specialist
                 </li>
               </ul>
 
-              <h1 className="font-bold text-xl mt-4 text-green-500">Coaching</h1>
+              <h1 className="font-bold text-xl mt-4 text-green-500">
+                Coaching
+              </h1>
               <ul className="">
-                <li className="my-2"><span className="text-bold">#</span> In-person and virtual instructional practice-based coaching
+                <li className="my-2">
+                  <span className="text-bold">#</span> In-person and virtual
+                  instructional practice-based coaching
                 </li>
-                <li className="my-2"><span className="text-bold">#</span> In-person and virtual leadership support and coaching </li>
+                <li className="my-2">
+                  <span className="text-bold">#</span> In-person and virtual
+                  leadership support and coaching{" "}
+                </li>
               </ul>
             </div>
 
@@ -202,7 +219,7 @@ const BuidingComponents = () => {
               {cardsData.map((card) => (
                 <div
                   key={card.title}
-                 className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6`}
+                  className={` rounded-lg overflow-hidden ${card.color} bg-opacity-80 w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 pb-6`}
                 >
                   <div className="p-4">
                     <h2 className="text-2xl text-white font-bold my-6">
@@ -215,96 +232,100 @@ const BuidingComponents = () => {
           </div>
         </div>
 
-        <div className="lg:grid grid-cols-2 gap-4 items-center">
-          <div className="my-6 col-span-1 ">
-            <ul className="my-6 text-center p-5 text-white text-lg">
-              <h1 className="text-blue-500 text-2xl my-4">
-                EdSpring Solutions professional learning offerings are designed
-                to be:
-              </h1>
-              <li className="my-2 rounded-md bg-orange-400"> Relevant</li>
-              <li className="my-2 rounded-md bg-blue-500"> Engaging</li>
-              <li className="my-2 rounded-md bg-green-500"> Coherent</li>
-              <li className="my-2 rounded-md bg-orange-400"> Targeted</li>
-              <li className="my-2 rounded-md bg-blue-500"> Data-driven</li>
-              <li className="my-2 rounded-md bg-green-500"> Differentiated</li>
-              <li className="my-2 rounded-md bg-orange-400"> Collaborative</li>
-            </ul>
-          </div>
+        {/* Offering */}
+        <div className="">
+          <h1 className="text-blue-500 text-2xl mt-10 mb-3 text-center">
+            EdSpring Solutions professional learning offerings are designed to
+            be:
+          </h1>
 
-          <div className="my-6 col-span-1 ">
-            <video src={ChildrenVideos} type="" controls autoPlay loop/>
-          </div>
-        </div>
-        <h1 className="text-blue-500 text-2xl my-4 text-center md:mt-0">
-          Focus Areas
-        </h1>
-
-        <div className="my-6 col-span-1 ">
-          {/* <img src={FocusArea} alt="" /> */}
+          <Offering />
         </div>
 
-        <ul className="my-6 text-md list-disc text-white">
-          <div className="md:grid grid-cols-4 gap-4">
-            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
-              <li className="my-2 rounded-md ">
-                Special Education Support and Services
-              </li>
-              <li className="my-2 rounded-md ">
-                English Learners (Multilingual Learners)
-              </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                Inclusion and Inclusive Practices
-              </li>
-              <li className="my-2 rounded-md "> Classroom Management</li>
-              <li className="my-2 rounded-md ">
-                Evidence-Based Behavior Interventions
-              </li>
+        {/* 
+        <div className="my-6 ">
+          <video src={ChildrenVideos} type="" controls autoPlay loop />
+        </div> */}
+
+        <div
+          className="bg-video my-10 pb-10"
+          style={{
+            backgroundImage: `url(${ChildrenVideos})`,
+            backgroundPosition: "center",
+            backgroundBlendMode: "overlay",
+            backgroundColor: "rgba(0, 0, 139, 0.5)",
+            backgroundSize: "cover",
+          }}
+        >
+          <h1 className="text-white text-4xl my-5 text-center md:mt-0">
+            Focus Areas
+          </h1>
+
+          <ul className="my-6 text-md list-disc text-white">
+            <div className="md:grid grid-cols-4 gap-4">
+              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
+                <li className="my-2 rounded-md ">
+                  Special Education Support and Services
+                </li>
+                <li className="my-2 rounded-md ">
+                  English Learners (Multilingual Learners)
+                </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Inclusion and Inclusive Practices
+                </li>
+                <li className="my-2 rounded-md "> Classroom Management</li>
+                <li className="my-2 rounded-md ">
+                  Evidence-Based Behavior Interventions
+                </li>
+              </div>
+              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
+                <li className="my-2 rounded-md "> Trauma-Informed Teaching</li>
+                <li className="my-2 rounded-md ">
+                  Multi-Tiered System of Supports (MTSS)
+                </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Differentiated Instruction
+                </li>
+                <li className="my-2 rounded-md ">
+                  Universal Design for Learning (UDL)
+                </li>
+              </div>
+              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
+                <li className="my-2 rounded-md ">
+                  Culturally Responsive and Sustaining Education
+                </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Co-Teaching and Collaboration{" "}
+                </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Social-Emotional Learning (SEL)
+                </li>
+                <li className="my-2 rounded-md "> Early Childhood Education</li>
+              </div>
+              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
+                <li className="my-2 rounded-md "> Technology Integration </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Special Education Compliance{" "}
+                </li>
+                <li className="my-2 rounded-md "> Section 504 Compliance </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  English Learners (EL) Compliance{" "}
+                </li>
+                <li className="my-2 rounded-md "> Parent Engagement </li>
+                <li className="my-2 rounded-md ">
+                  {" "}
+                  Education in Fragile and Conflict Contexts{" "}
+                </li>
+              </div>
             </div>
-            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
-              <li className="my-2 rounded-md "> Trauma-Informed Teaching</li>
-              <li className="my-2 rounded-md ">
-                Multi-Tiered System of Supports (MTSS)
-              </li>
-              <li className="my-2 rounded-md "> Differentiated Instruction</li>
-              <li className="my-2 rounded-md ">
-                Universal Design for Learning (UDL)
-              </li>
-            </div>
-            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
-              <li className="my-2 rounded-md ">
-                Culturally Responsive and Sustaining Education
-              </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                Co-Teaching and Collaboration{" "}
-              </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                Social-Emotional Learning (SEL)
-              </li>
-              <li className="my-2 rounded-md "> Early Childhood Education</li>
-            </div>
-            <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
-              <li className="my-2 rounded-md "> Technology Integration </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                Special Education Compliance{" "}
-              </li>
-              <li className="my-2 rounded-md "> Section 504 Compliance </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                English Learners (EL) Compliance{" "}
-              </li>
-              <li className="my-2 rounded-md "> Parent Engagement </li>
-              <li className="my-2 rounded-md ">
-                {" "}
-                Education in Fragile and Conflict Contexts{" "}
-              </li>
-            </div>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </div>
       <Footer />
     </>

@@ -11,14 +11,14 @@ const Founder = () => {
         <h2 className="text-blue-500 text-3xl mb-6  text-center md:text-start">
           Meet the <span className="my-3 ">Founder</span>
         </h2>
-        <div className="lg:grid lg:grid-cols-2 md:flex ">
-          <div className="lg:col-span-1 lg:mt-0">
+        <div className="lg:grid lg:grid-cols-2 md:flex  items-center">
+          <div className="lg:col-span-1 lg:mt-0 text-center">
             <img
               src={DrTaiwo}
               alt="Founders Image"
               className="
-            md:h-[500px] md:w-[500px] 
-            h-full w-full"
+            md:h-[400px] md:w-[400px] 
+            h-full w-full shadow-2xl image-border my-10"
             />
           </div>
           <div className="lg:col-span-1 ">

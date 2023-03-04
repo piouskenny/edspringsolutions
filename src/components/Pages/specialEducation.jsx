@@ -57,7 +57,7 @@ const SpecialEducation = () => {
             ></video>
           </div>
         </div>
-        <h1 className="text-center my-8 text-2xl text-blue-500">
+        {/* <h1 className="text-center my-8 text-2xl text-blue-500">
           Some common challenges that parents and caregivers may face include:
         </h1>
         <ul className="my-6 text-lg  text-white">
@@ -89,7 +89,7 @@ const SpecialEducation = () => {
               </li>
             </div>
           </div>
-        </ul>
+        </ul> */}
       </div>
       <Footer />
     </>

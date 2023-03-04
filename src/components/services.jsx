@@ -24,7 +24,7 @@ const Services = () => {
         <div className="md:hidden  -mx-4  p-6">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <a href="#">
+              <Link target="_parent" to="/buildingComponents" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -32,12 +32,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
-                    Building Components
-                  </a>
+                  <Link target="_parent" to="/buildingComponents" className="text-white hover:text-orange-400" >
+                    Capacity Building
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-5" title="Published date">
                   Professional Learning Opportunities for Instructional Staff:
@@ -58,7 +58,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-blue-500">
-              <a href="#">
+              <Link target="_parent"  to="/systemandprogramPlanning" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Planning}
@@ -66,12 +66,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent"  to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
                     System & Program Planning
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Strategic planning is the cornerstone of success for any
@@ -90,7 +90,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-orange-400">
-              <a href="#">
+              <Link target="_parent" to="/specialeducation" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
@@ -98,12 +98,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent" to="/specialeducation" className="text-white hover:text-orange-400" >
                     Special Education Advocacy for Families
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Navigating the special education process can be overwhelming
@@ -122,7 +122,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-gray-400">
-              <a href="#">
+              <Link target="_parent" to="/specialeducation504" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={ChildShakeTeacher}
@@ -130,12 +130,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent" to="/specialeducation504" className="text-white hover:text-orange-400" >
                     Special Education and Section 504 Compliance
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Ensuring compliance with special education laws and
@@ -158,7 +158,7 @@ const Services = () => {
         <div className="md:flex  -mx-4  hidden">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <a href="#">
+              <Link target="_parent" to="/buildingComponents">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -166,12 +166,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
-                    Building Components
-                  </a>
+                  <Link target="_parent" to="/buildingComponents" className="text-white hover:text-orange-400" >
+                    Capacity Building
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-5" title="Published date">
                   Professional Learning Opportunities for Instructional Staff:
@@ -192,7 +192,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-blue-500">
-              <a href="#">
+              <Link target="_parent" to="/systemandprogramPlanning">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Planning}
@@ -200,12 +200,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent" to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
                     System & Program Planning
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Strategic planning is the cornerstone of success for any
@@ -224,7 +224,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-orange-400">
-              <a href="#">
+              <Link target="_parent"  to="/specialeducation" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
@@ -232,12 +232,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent"  to="/specialeducation" className="text-white hover:text-orange-400" >
                     Special Education Advocacy for Families
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Navigating the special education process can be overwhelming
@@ -254,9 +254,10 @@ const Services = () => {
               </div>
             </div>
           </div>
+          
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-gray-400">
-              <a href="#">
+              <Link target="_parent" to="/specialeducation504">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={ChildShakeTeacher}
@@ -264,12 +265,12 @@ const Services = () => {
                   height="500"
                   alt="This post thumbnail"
                 />
-              </a>
+              </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <a className="text-white hover:text-orange-400" href="#">
+                  <Link target="_parent" to="/specialeducation504" className="text-white hover:text-orange-400" >
                     Special Education and Section 504 Compliance
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-gray-100 mb-4" title="Published date">
                   Ensuring compliance with special education laws and
