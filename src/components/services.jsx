@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Planning from "../assets/img/point-papar.jpg";
 import Building from "../assets/img/book-bible.jpg";
 import bgCard from "../assets/img/classroom-close.jpg";
-import ChildShakeTeacher from "./media/morepictures/childshaketeacjer.jpg";
+import Law from "./Pages/law.jpg";
 import BlackandWhite from "./media/morepictures/blackandwhite.jpg";
 
 const Services = () => {
@@ -125,7 +125,7 @@ const Services = () => {
               <Link target="_parent" to="/specialeducation504" >
                 <img
                   className="w-full m-0 rounded-t lazy"
-                  src={ChildShakeTeacher}
+                  src={Law}
                   width="960"
                   height="500"
                   alt="This post thumbnail"
@@ -260,7 +260,7 @@ const Services = () => {
               <Link target="_parent" to="/specialeducation504">
                 <img
                   className="w-full m-0 rounded-t lazy"
-                  src={ChildShakeTeacher}
+                  src={Law}
                   width="960"
                   height="500"
                   alt="This post thumbnail"

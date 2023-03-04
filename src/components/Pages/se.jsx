@@ -1,6 +1,6 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
-import TeacherndChild from "../media/morepictures/childshaketeacjer.jpg";
+import Law from "./law.jpg";
 
 const SPecialEducation504 = () => {
   return (
@@ -16,7 +16,7 @@ const SPecialEducation504 = () => {
 
         <div className="md:grid grid-cols-2 gap-10 items-center">
         <div className="col-span-1  md:hidden">
-            <img src={TeacherndChild} alt="" />
+            <img src={Law} alt="" />
           </div>
           <div className="col-span-1">
             <p className="block my-6 text-lg">
@@ -34,7 +34,7 @@ const SPecialEducation504 = () => {
             </p>
           </div>
           <div className="col-span-1 hidden md:block">
-            <img src={TeacherndChild} alt="" />
+            <img src={Law} alt="" />
           </div>
         </div>
       </div>

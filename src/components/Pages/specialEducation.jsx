@@ -1,6 +1,7 @@
 import Navbar from "../navbar";
 import Footer from "../footer";
-import ChildndFather from "../media/videos/father.mp4";
+import Family from "./family.jpg";
+// import ChildndFather from "../media/videos/father.mp4";
 
 const SpecialEducation = () => {
   return (
@@ -16,14 +17,8 @@ const SpecialEducation = () => {
 
         <div className="lg:grid md:grid-cols-2 gap-4 mb-12 items-center">
           <div className="col-span-1 md:mt-0 mt-6  md:hidden">
-            <video
-              src={ChildndFather}
-              muted
-              alt=""
-              autoPlay
-              controls
-              loop
-            ></video>
+            <img
+              src={Family}/>
           </div>
           <div className="col-span-1 text-lg">
             <p className="my-6 ">
@@ -33,28 +28,25 @@ const SpecialEducation = () => {
               Disabilities, over 90% of parents reported that they face
               challenges in understanding the special education process,
               including how to advocate for their child's needs and how to work
-              effectively with school personnel. At EdSpring Solutions, we are
-              committed to empowering parents with information and support they
-              need to effectively advocate for their children.
+              effectively with school personnel.
             </p>
 
             <p className="my-6">
-              Our consultants work with families to help them understand their
-              rights under IDEA and provide guidance on issues such as obtaining
-              evaluations and assessments, developing effective IEPs, attending
-              IEP meetings, addressing behavioral concerns, and so on.
+              EdSpring Solutions is dedicated to equipping parents with the
+              necessary information and support to effectively advocate for
+              their children and navigate the intricate maze of procedures and
+              policies involved in accessing the education and services they are
+              legally entitled to. Our consultants work with families to help
+              them understand their rights under IDEA and provide guidance on
+              issues such as obtaining evaluations and assessments, developing
+              effective IEPs, attending IEP meetings, addressing behavioral
+              concerns, and so on
             </p>
           </div>
 
           <div className="col-span-1 md:mt-0 mt-6 hidden md:block">
-            <video
-              src={ChildndFather}
-              muted
-              alt=""
-              autoPlay
-              controls
-              loop
-            ></video>
+            <img
+              src={Family}/>
           </div>
         </div>
         {/* <h1 className="text-center my-8 text-2xl text-blue-500">
