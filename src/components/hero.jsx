@@ -20,7 +20,7 @@ const Hero = () => {
         <div
           className="bg-gray-900 bg-opacity-60 md:bg-opacity-70
          md:px-10 md:pb-40 md:pt-20  px-6 md:bg-cover bg-contain
-         h-[60vh] 
+         h-[65vh] 
   
          md:h-screen"
          
