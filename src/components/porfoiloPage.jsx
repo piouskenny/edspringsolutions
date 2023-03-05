@@ -5,8 +5,11 @@ import Port4 from "../assets/portfolios/port4.png";
 import Port5 from "../assets/portfolios/port5.png";
 import Navbar from './navbar';
 import Footer from './footer';
+import React, { Component } from "react";
 
-const PortfolioPage = () => {
+
+class PortfolioPage extends Component {
+render () {
   return (
     <>
     <Navbar/>
@@ -57,6 +60,7 @@ const PortfolioPage = () => {
       <Footer/>
     </>
   );
+}
 };
 
 export default PortfolioPage;
