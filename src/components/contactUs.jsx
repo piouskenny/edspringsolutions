@@ -6,7 +6,7 @@ const ContactUs = () => {
           Contact Us
         </h2>
 
-        <form action="mailto:info@springsolutions.com" method="POST"
+        <form action="mailto:info@edspringsolutions.com" method="POST"
           className="mt-6">
           <div>
             <label
