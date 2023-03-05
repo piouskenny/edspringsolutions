@@ -24,7 +24,7 @@ const Services = () => {
         <div className="md:hidden  -mx-4  p-6">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <Link target="_parent" to="/capacityBuilding" >
+              <Link to="/capacityBuilding" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -35,7 +35,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/capacityBuilding" className="text-white hover:text-orange-400" >
+                  <Link to="/capacityBuilding" className="text-white hover:text-orange-400" >
                     Capacity Building
                   </Link>
                 </div>
@@ -48,7 +48,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/capacityBuilding"
-                  target="_parent"
+                
                   className="text-sm px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -58,7 +58,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-blue-500">
-              <Link target="_parent"  to="/systemandprogramPlanning" >
+              <Link  to="/systemandprogramPlanning" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Planning}
@@ -69,7 +69,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent"  to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
+                  <Link  to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
                     System & Program Planning
                   </Link>
                 </div>
@@ -80,7 +80,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/systemandprogramPlanning"
-                  target="_parent"
+                
                   className="text-sm  px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -90,7 +90,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-orange-400">
-              <Link target="_parent" to="/specialeducation" >
+              <Link to="/specialeducation" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
@@ -101,7 +101,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/specialeducation" className="text-white hover:text-orange-400" >
+                  <Link to="/specialeducation" className="text-white hover:text-orange-400" >
                     Special Education Advocacy for Families
                   </Link>
                 </div>
@@ -112,7 +112,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/specialeducation"
-                  target="_parent"
+                
                   className="text-sm  px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -122,7 +122,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-gray-400">
-              <Link target="_parent" to="/specialeducation504" >
+              <Link to="/specialeducation504" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Law}
@@ -133,7 +133,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/specialeducation504" className="text-white hover:text-orange-400" >
+                  <Link to="/specialeducation504" className="text-white hover:text-orange-400" >
                     Special Education and Section 504 Compliance
                   </Link>
                 </div>
@@ -158,7 +158,7 @@ const Services = () => {
         <div className="md:flex  -mx-4  hidden">
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-xl h-full bg-green-500 bg-opacity-70">
-              <Link target="_parent" to="/capacityBuilding">
+              <Link to="/capacityBuilding">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={BlackandWhite}
@@ -169,7 +169,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/capacityBuilding" className="text-white hover:text-orange-400" >
+                  <Link to="/capacityBuilding" className="text-white hover:text-orange-400" >
                     Capacity Building
                   </Link>
                 </div>
@@ -182,7 +182,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/capacityBuilding"
-                  target="_parent"
+                
                   className="text-sm px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -192,7 +192,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-blue-500">
-              <Link target="_parent" to="/systemandprogramPlanning">
+              <Link to="/systemandprogramPlanning">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Planning}
@@ -203,7 +203,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
+                  <Link to="/systemandprogramPlanning" className="text-white hover:text-orange-400" >
                     System & Program Planning
                   </Link>
                 </div>
@@ -214,7 +214,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/systemandprogramPlanning"
-                  target="_parent"
+                
                   className="text-sm  px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -224,7 +224,7 @@ const Services = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-orange-400">
-              <Link target="_parent"  to="/specialeducation" >
+              <Link  to="/specialeducation" >
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
@@ -235,7 +235,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent"  to="/specialeducation" className="text-white hover:text-orange-400" >
+                  <Link  to="/specialeducation" className="text-white hover:text-orange-400" >
                     Special Education Advocacy for Families
                   </Link>
                 </div>
@@ -246,7 +246,7 @@ const Services = () => {
                 </p>
                 <Link
                   to="/specialeducation"
-                  target="_parent"
+                
                   className="text-sm  px-4 py-2 border-lg border border-text rounded-lg md:rounded-xl  text-white  hover:text-orange-400"
                 >
                   Read More &rarr;
@@ -257,7 +257,7 @@ const Services = () => {
           
           <div className="w-full sm:w-1/2 md:w-1/3 self-stretch p-2 mb-2">
             <div className="rounded shadow-md h-full bg-opacity-70 bg-gray-400">
-              <Link target="_parent" to="/specialeducation504">
+              <Link to="/specialeducation504">
                 <img
                   className="w-full m-0 rounded-t lazy"
                   src={Law}
@@ -268,7 +268,7 @@ const Services = () => {
               </Link>
               <div className="px-6 py-5">
                 <div className="font-semibold text-lg mb-2">
-                  <Link target="_parent" to="/specialeducation504" className="text-white hover:text-orange-400" >
+                  <Link to="/specialeducation504" className="text-white hover:text-orange-400" >
                     Special Education and Section 504 Compliance
                   </Link>
                 </div>

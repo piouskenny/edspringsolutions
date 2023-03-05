@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="nav_bar text-right mx-0 md:flex md:justify-between md:items-center  md:my-0  md:relative fixed z-0 bg-white shadow-gray-600 shadow-sm ">
       <div className="flex justify-between items-center">
         <h1 className="font-bold uppercase p-4 md:text-2xl">
-          <Link target="_parent" href="#" className="text-blue-500">
+          <Link  href="#" className="text-blue-500">
             <img src={ImageLogo} alt="" className="md:w-30 md:h-16 h-8" />
           </Link>
         </h1>
@@ -83,7 +83,6 @@ const Navbar = () => {
         <div className="md:flex mt-2 md:mt-0 text-blue-500">
           <li className="mx-4 my-6 ">
             <Link
-              target="_parent"
               to="/"
               className="hover:text-orange-400 text-lg"
             >
@@ -92,7 +91,6 @@ const Navbar = () => {
           </li>
           <li className="mx-4 my-6">
             <Link
-              target="_parent"
               to="/aboutMore"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}

@@ -39,7 +39,7 @@ const About = () => {
                 integrate this knowledge into our work with clients to achieve
                 the desired results.
               </p>
-              <Link to="/aboutMore" target="_parent">
+              <Link to="/aboutMore">
                 <button className="bg-white px-4 mt-6 py-2 border-lg border border-blue-500 rounded-lg md:rounded-xl text-blue-500 hover:bg-white hover:text-blue-400">
                   Read More About Us &rarr;
                 </button>

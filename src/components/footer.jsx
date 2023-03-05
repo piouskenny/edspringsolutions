@@ -21,16 +21,16 @@ function Footer() {
               <Link to="/aboutMore">About</Link>
             </li>
             <li className="mb-2">
-              <a href="/#services">Services</a>
+              <Link to="/servicesPage">Services</Link>
             </li>
             {/* <li className="mb-2">
               <a href="/#insights">Insights</a>
             </li> */}
             <li className="mb-2">
-              <a href="/#partners">Porfolio</a>
+              <Link to="/portfolioPage">Porfolio</Link>
             </li>
             <li className="mb-2">
-              <a href="/#contact">Contact</a>
+              <Link to="/contactPage">Contact</Link>
             </li>
           </ul>
         </div>
