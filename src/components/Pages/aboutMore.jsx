@@ -44,13 +44,12 @@ const AboutMore = () => {
             EdSpring <span className="text-green-500 ">Solutions</span>
           </h1>
           <div className="lg:grid gap-6 grid-cols-2 grid-row-auto mt-10 md:mt-10 items-center">
-            <div className="mt-10  md:hidden">
+             <div className="mt-10  md:hidden">
               <img
-                src="https://img.freepik.com/free-photo/businessman-showing-changes-report_1098-3504.jpg?w=740&t=st=1677488730~exp=1677489330~hmac=dcae9ea60611e5ecb0faf64eac9948108c1b00cfeb8168f1b284ea929aa71986"
+                src={HeroImage}
                 alt=""
-                className="h-fill w-fill"
+                className="h-[250px] w-fill image-border"
               />
-            </div>
             <div className="col-span-1">
               <p className="md:text-xl  text-gray-600 text-lg">
                 Improving student outcomes is a complex and multifaceted
