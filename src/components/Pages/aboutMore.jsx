@@ -3,7 +3,6 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import DrTaiwo from "./drTaiwo.jpeg";
 import cardBg from "./class-far.jpg";
-import HeroImage from "../hero-edited.png";
 
 const About = () => {
 
@@ -43,17 +42,7 @@ const AboutMore = () => {
           <h1 className="text-4xl text-center text-blue-500 font-semibold">
             EdSpring <span className="text-green-500 ">Solutions</span>
           </h1>
-          <div className="lg:grid gap-6 grid-cols-2 grid-row-auto mt-10 md:mt-10 items-center">
-             <div className="mt-10  md:hidden">
-              <img
-                src={HeroImage}
-                alt=""
-                className="h-[250px] w-fill image-border"
-              />
-
-    </div>
-
-              </div>
+        
             <div className="col-span-1">
               <p className="md:text-xl  text-gray-600 text-lg">
                 Improving student outcomes is a complex and multifaceted
