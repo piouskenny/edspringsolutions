@@ -51,7 +51,7 @@ const Offering = () => {
             {cardsItems.map((card) => (
               <div
                 key={card.title}
-                className={` bg-opacity-80 rounded-lg overflow-hidden ${card.color} w-full sm:w-1/2 md:w-1/2 lg:w-1/4 m-4 transition-all duration-400 transform hover:-translate-y-6`}
+                className={` bg-opacity-80 rounded-lg overflow-hidden ${card.color}  m-4 transition-all duration-400 transform hover:-translate-y-6`}
               >
                 <div className="p-5">
                   <h2 className="text-[16px] text-white font-bold my-3 text-center items-center">

@@ -7,6 +7,10 @@ import SystemAndProgramPlanning from './components/Pages/systemAndProgramPlannin
 import SpecialEducation from './components/Pages/specialEducation';
 import AboutMore from './components/Pages/aboutMore'
 import SPecialEducation504 from './components/Pages/se';
+import ContactUsPage from './components/contactPage';
+import PortfolioPage from './components/porfoiloPage';
+import ServicesPage from './components/servicesPage';
+
 
 import {
   createBrowserRouter,
@@ -40,6 +44,18 @@ const router = createBrowserRouter([
   {
     path: "/specialeducation504",
     element: <SPecialEducation504/>,
+  },
+  {
+    path: "/servicesPage",
+    element: <ServicesPage/>,
+  },
+  {
+    path: "/portfolioPage",
+    element: <PortfolioPage/>,
+  },
+  {
+    path: "/contactPage",
+    element: <ContactUsPage/>,
   },
 
 ]);

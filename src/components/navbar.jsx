@@ -91,23 +91,23 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mx-4 my-6">
-            <a
+            <Link
               target="_parent"
-              href="/aboutMore"
+              to="/aboutMore"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               About
-            </a>
+            </Link>
           </li>
           <li className="mx-4 my-6">
-            <a
-              href="/#services"
+            <Link
+              to="/servicesPage"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Services
-            </a>
+            </Link>
           </li>
           {/* <li className="mx-4 my-6">
             <a
@@ -119,22 +119,22 @@ const Navbar = () => {
             </a>
           </li> */}
           <li className="mx-4 my-6">
-            <a
-              href="/#porfolios"
+            <Link
+              to="/portfolioPage"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Porfolio
-            </a>
+            </Link>
           </li>
           <li className="mx-4 my-6">
-            <a
-              href="/#contact"
+            <Link
+              to="/contactPage"
               className="hover:text-orange-400 text-lg"
               onClick={handleclick}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </div>
       </ul>

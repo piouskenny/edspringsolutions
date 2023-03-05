@@ -3,10 +3,13 @@ import Port2 from "../assets/portfolios/Port2.png";
 import Port3 from "../assets/portfolios/Port3.png";
 import Port4 from "../assets/portfolios/port4.png";
 import Port5 from "../assets/portfolios/port5.png";
+import Navbar from './navbar';
+import Footer from './footer';
 
-const Partners = () => {
+const PortfolioPage = () => {
   return (
     <>
+    <Navbar/>
       <section
         id="porfolios"
         className=" w-fulltext-white md:mt-6 md:px-32 px-10 py-6 md:py-16"
@@ -51,8 +54,9 @@ const Partners = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };
 
-export default Partners;
+export default PortfolioPage;

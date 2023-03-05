@@ -35,13 +35,13 @@ const BuidingComponents = () => {
         <h1 className="text-center text-orange-400 uppercase font-medium text-2xl">
           Services
         </h1>
-        <h1 className="font-bold text-center text-3xl my-6 text-blue-500">
+        <h1 className="font-bold text-center text-3xl  text-blue-500">
           Capacity Building
         </h1>
 
         <div className="md:grid md:grid-cols-2 gap-10 items-center">
           <div className="col-span-1 text-lg">
-            <p className="block my-6">
+            <p className="block ">
               <span className="font-bold block text-2xl mt-5 mb-2">
                 Professional Learning Opportunities for Instructional Staff
               </span>
@@ -76,7 +76,7 @@ const BuidingComponents = () => {
           </div>
         </div>
 
-        <div className=" my-6 mb-12">
+        <div className="  mb-12">
           <div className="col-span-1 text-lg">
             <p className="block my-6">
               <span className="font-bold block text-2xl mt-6 mb-2">
@@ -258,13 +258,13 @@ const BuidingComponents = () => {
             backgroundSize: "cover",
           }}
         >
-          <h1 className="text-white text-4xl my-5 text-center md:mt-0">
+          <h1 className="text-white text-4xl pt-10 my-10 text-center md:mt-0">
             Focus Areas
           </h1>
 
-          <ul className="my-6 text-md list-disc text-white">
+          <ul className="my-6 text-md list-disc text-white px-8 md:px-0">
             <div className="md:grid grid-cols-4 gap-4">
-              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-blue-500">
+              <div className="col-span-1 rounded-lg mt-6 md:my-0 p-1 ">
                 <li className="my-2 rounded-md ">
                   Special Education Support and Services
                 </li>
@@ -280,7 +280,7 @@ const BuidingComponents = () => {
                   Evidence-Based Behavior Interventions
                 </li>
               </div>
-              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-green-500">
+              <div className="col-span-1 rounded-lg  md:my-0 p-1 ">
                 <li className="my-2 rounded-md "> Trauma-Informed Teaching</li>
                 <li className="my-2 rounded-md ">
                   Multi-Tiered System of Supports (MTSS)
@@ -292,11 +292,11 @@ const BuidingComponents = () => {
                 <li className="my-2 rounded-md ">
                   Universal Design for Learning (UDL)
                 </li>
-              </div>
-              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-orange-400">
                 <li className="my-2 rounded-md ">
                   Culturally Responsive and Sustaining Education
                 </li>
+              </div>
+              <div className="col-span-1 rounded-lg  md:my-0 p-1 ">
                 <li className="my-2 rounded-md ">
                   {" "}
                   Co-Teaching and Collaboration{" "}
@@ -306,14 +306,14 @@ const BuidingComponents = () => {
                   Social-Emotional Learning (SEL)
                 </li>
                 <li className="my-2 rounded-md "> Early Childhood Education</li>
-              </div>
-              <div className="col-span-1 rounded-lg my-6 md:my-0 p-6 bg-gray-400">
                 <li className="my-2 rounded-md "> Technology Integration </li>
                 <li className="my-2 rounded-md ">
                   {" "}
                   Special Education Compliance{" "}
                 </li>
                 <li className="my-2 rounded-md "> Section 504 Compliance </li>
+              </div>
+              <div className="col-span-1 rounded-lg  md:my-0 p-1">
                 <li className="my-2 rounded-md ">
                   {" "}
                   English Learners (EL) Compliance{" "}

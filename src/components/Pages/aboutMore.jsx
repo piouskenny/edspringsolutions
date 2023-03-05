@@ -41,7 +41,7 @@ const AboutMore = () => {
             EdSpring <span className="text-green-500 ">Solutions</span>
           </h1>
           <div className="lg:grid gap-6 grid-cols-2  mt-10 md:mt-2 ">
-            <div className="mt-10  md:hidden">
+            <div className="mt-10  md:hidden mb-10">
               <img
                 src={HeroImage}
                 alt=""
