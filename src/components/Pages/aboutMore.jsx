@@ -42,11 +42,7 @@ const AboutMore = () => {
           </h1>
           <div className="lg:grid gap-6 grid-cols-2  mt-10 md:mt-2 ">
             <div className="mt-10  md:hidden mb-10">
-              <img
-                src={HeroImage}
-                alt=""
-                className="h-[250px] w-fill"
-              />
+              <img src={HeroImage} alt="" className="h-[250px] w-fill" />
             </div>
             <div className="col-span-1">
               <p className="md:text-xl  text-gray-600 text-lg">
@@ -68,15 +64,12 @@ const AboutMore = () => {
                 the desired results.
               </p>
               <p className="md:text-xl  text-gray-600 text-lg mt-4 mb-1">
-                We take pride in creating professional learning experiences
-                tailored to your needs, ensuring they are coherent, relevant,
-                engaging, and data-driven. Our collaborative approach involves
-                working closely with our clients to create a shared
-                understanding of their needs, challenges, and desired outcomes.
-                We strive to establish open lines of communication with our
-                clients, listening to their input and feedback at every step of
-                the way, thereby providing comprehensive and actionable
-                solutions.
+                Our collaborative approach involves working closely with our
+                clients to create a shared understanding of their needs,
+                challenges, and desired outcomes. We strive to establish open
+                lines of communication with our clients, listening to their
+                input and feedback at every step of the way, thereby providing
+                comprehensive and actionable solutions.
               </p>
             </div>
 
@@ -86,7 +79,6 @@ const AboutMore = () => {
                 alt=""
                 className="h-fill w-fill md:h-[90%] md:w-[100%] shadow-xl"
               />
-
             </div>
           </div>
 

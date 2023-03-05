@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="nav_bar text-right mx-0 md:flex md:justify-between md:items-center  md:my-0  md:relative fixed z-0 bg-white shadow-gray-600 shadow-sm ">
       <div className="flex justify-between items-center">
         <h1 className="font-bold uppercase p-4 md:text-2xl">
-          <Link  href="#" className="text-blue-500">
+          <Link  to="/" className="text-blue-500">
             <img src={ImageLogo} alt="" className="md:w-30 md:h-16 h-8" />
           </Link>
         </h1>

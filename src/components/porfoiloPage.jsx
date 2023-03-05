@@ -44,7 +44,7 @@ const PortfolioPage = () => {
           </div>
           <div className="col-1">
             <img
-              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+              className="md:w-[15rem] md:h-[15rem] h-[60px] w-[100px] object-center"
               src={Port5}
               alt="Partner 1"
             />
