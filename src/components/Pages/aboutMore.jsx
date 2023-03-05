@@ -42,7 +42,7 @@ const AboutMore = () => {
           <h1 className="text-4xl text-center text-blue-500 font-semibold">
             EdSpring <span className="text-green-500 ">Solutions</span>
           </h1>
-        
+        <div>
             <div className="col-span-1">
               <p className="md:text-xl  text-gray-600 text-lg">
                 Improving student outcomes is a complex and multifaceted
