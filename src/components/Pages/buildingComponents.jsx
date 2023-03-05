@@ -262,7 +262,7 @@ const BuidingComponents = () => {
             Focus Areas
           </h1>
 
-          <ul className="my-6 text-md list-disc text-white px-8 md:px-0">
+          <ul className="my-6 text-md list-disc text-white px-8 md:px-10">
             <div className="md:grid grid-cols-4 gap-4">
               <div className="col-span-1 rounded-lg mt-6 md:my-0 p-1 ">
                 <li className="my-2 rounded-md ">
@@ -312,12 +312,12 @@ const BuidingComponents = () => {
                   Special Education Compliance{" "}
                 </li>
                 <li className="my-2 rounded-md "> Section 504 Compliance </li>
-              </div>
-              <div className="col-span-1 rounded-lg  md:my-0 p-1">
                 <li className="my-2 rounded-md ">
                   {" "}
                   English Learners (EL) Compliance{" "}
                 </li>
+              </div>
+              <div className="col-span-1 rounded-lg  md:my-0 p-1">
                 <li className="my-2 rounded-md "> Parent Engagement </li>
                 <li className="my-2 rounded-md ">
                   {" "}
