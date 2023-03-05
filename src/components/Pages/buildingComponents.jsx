@@ -137,18 +137,18 @@ const BuidingComponents = () => {
               <h1 className="font-bold text-xl mt-4 text-green-500">
                 Training
               </h1>
-              <ul className="">
+              <ul className="list-disc">
                 <li className="my-2">
-                  <span className="text-bold">#</span> On-site professional
+                  <span className="text-bold"></span> On-site professional
                   development sessions
                 </li>
                 <li className="my-2">
-                  <span className="text-bold">#</span> Online courses:
+                  <span className="text-bold"></span> Online courses:
                   Self-paced, on-demand learning opportunities that you can
                   access anytime
                 </li>
                 <li className="my-2">
-                  <span className="text-bold">#</span> Live or recorded training
+                  <span className="text-bold"></span> Live or recorded training
                   sessions and workshops facilitated by an EdSpring Solutions
                   specialist
                 </li>
@@ -157,13 +157,13 @@ const BuidingComponents = () => {
               <h1 className="font-bold text-xl mt-4 text-green-500">
                 Coaching
               </h1>
-              <ul className="">
+              <ul className="list-disc">
                 <li className="my-2">
-                  <span className="text-bold">#</span> In-person and virtual
+                  <span className="text-bold"></span> In-person and virtual
                   instructional practice-based coaching
                 </li>
                 <li className="my-2">
-                  <span className="text-bold">#</span> In-person and virtual
+                  <span className="text-bold"></span> In-person and virtual
                   leadership support and coaching{" "}
                 </li>
               </ul>
