@@ -3,6 +3,9 @@ import Navbar from "../navbar";
 import Footer from "../footer";
 import DrTaiwo from "./drTaiwo.jpeg";
 import cardBg from "./class-far.jpg";
+import HeroImage from "../hero-edited.png";
+
+const About = () => {
 
 const cardsData = [
   {
