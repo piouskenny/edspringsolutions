@@ -4,7 +4,7 @@ const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const mailaddress = "https://formsubmit.co/info@edspringsolutions.com";
+  const mailaddress = "info@edspringsolutions.com";
   
   const handleSubmit = (event) => {
     event.preventDefault();
