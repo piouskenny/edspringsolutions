@@ -324,6 +324,7 @@ class BuidingComponents extends Component {
                     {" "}
                     Special Education Compliance{" "}
                   </li>
+                  <li className="my-2 rounded-md "> EdTech Integration </li>
                 </div>
                 <div className="col-span-1 rounded-lg  md:my-0 p-1">
                   <li className="my-2 rounded-md "> Section 504 Compliance </li>
@@ -342,10 +343,6 @@ class BuidingComponents extends Component {
                     {" "}
                     School Administration and Leadership{" "}
                   </li>
-                </div>
-
-                <div className="col-span-1 rounded-lg  md:my-0 p-1">
-                  <li className="my-2 rounded-md "> EdTech Integration </li>
                 </div>
               </div>
             </ul>
