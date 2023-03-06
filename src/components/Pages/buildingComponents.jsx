@@ -335,6 +335,11 @@ class BuidingComponents extends Component {
                     {" "}
                     Education in Fragile and Conflict Contexts{" "}
                   </li>
+
+<li className="my-2 rounded-md "> School Administration and Leadership. </li>
+
+<li className="my-2 rounded-md "> EdTech Integration  </li>
+
                 </div>
               </div>
             </ul>
