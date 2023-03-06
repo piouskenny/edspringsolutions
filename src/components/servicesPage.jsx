@@ -7,6 +7,7 @@ import BlackandWhite from "./media/morepictures/blackandwhite.jpg";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import React, { Component } from "react";
+import family from "./Pages/family.jpg";
 
 class ServicesPage extends Component {
   componentDidMount() {
@@ -106,7 +107,7 @@ class ServicesPage extends Component {
                 <Link to="/specialeducation">
                   <img
                     className="w-full m-0 rounded-t lazy"
-                    src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
+                    src={family}
                     width="960"
                     height="500"
                     alt="This post thumbnail"
@@ -249,7 +250,7 @@ class ServicesPage extends Component {
                 <Link to="/specialeducation">
                   <img
                     className="w-full m-0 rounded-t lazy"
-                    src="https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=740&t=st=1677317372~exp=1677317972~hmac=6646a52f23f58b41a757df212e9c8325575ead339b6dead2e2b2b38c30bde67e"
+                    src={family}
                     width="960"
                     height="500"
                     alt="This post thumbnail"
