@@ -43,7 +43,7 @@ class ContactUsPage extends Component {
         <Navbar />
         <div
           id="contact"
-          className="max-w-7xl mx-auto sm:px-6 lg:px-8 md:px-32 px-10 shadow-gray-900 shadow-sm py-6 mt-10 md:mt-0 md:py-12"
+          className="max-w-7xl mx-auto sm:px-6 lg:px-8 md:px-32 px-10 shadow-gray-900 shadow-sm  pt-20 md:mt-0 md:py-12"
         >
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-medium tracking-tight text-blue-500 sm:text-4xl text-center">
