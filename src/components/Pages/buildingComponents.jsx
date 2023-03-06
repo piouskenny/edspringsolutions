@@ -323,13 +323,15 @@ class BuidingComponents extends Component {
                     {" "}
                     Special Education Compliance{" "}
                   </li>
-                  <li className="my-2 rounded-md "> Section 504 Compliance </li>
+                </div>
+                <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
+     <li className="my-2 rounded-md "> Section 504 Compliance </li>
                   <li className="my-2 rounded-md ">
                     {" "}
                     English Learners (EL) Compliance{" "}
                   </li>
-                </div>
-                <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
                   <li className="my-2 rounded-md "> Parent Engagement </li>
                   <li className="my-2 rounded-md ">
                     {" "}
