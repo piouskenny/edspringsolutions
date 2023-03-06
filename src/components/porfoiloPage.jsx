@@ -3,6 +3,8 @@ import Port2 from "../assets/portfolios/Port2.png";
 import Port3 from "../assets/portfolios/Port3.png";
 import Port4 from "../assets/portfolios/port4.png";
 import Port5 from "../assets/portfolios/port5.png";
+import Port6 from "../assets/portfolios/port6.png";
+import Port7 from "../assets/portfolios/port7.png";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import React, { Component } from "react";
@@ -57,6 +59,20 @@ class PortfolioPage extends Component {
             </div>
             <div className="col-1">
               <img className="w-fill h-fill" src={Port2} alt="Partner 2" />
+            </div>
+            <div className="col-1">
+              <img
+                className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+                src={Port6}
+                alt="Partner 1"
+              />
+            </div>
+            <div className="col-1">
+              <img
+                className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+                src={Port7}
+                alt="Partner 1"
+              />
             </div>
           </div>
         </section>

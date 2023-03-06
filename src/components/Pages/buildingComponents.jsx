@@ -63,6 +63,7 @@ class BuidingComponents extends Component {
                 training they received.{" "}
                 <a
                   href="https://s3.amazonaws.com/edtech-production/reports/Gates-PDMarketResearch-Dec5.pdf "
+                  target="_blank"
                   className="text-blue-600"
                 >
                   According to a survey conducted by the Bill and Melinda Gates
@@ -104,6 +105,7 @@ class BuidingComponents extends Component {
                 (10%),{" "}
                 <a
                   href="https://learningpolicyinstitute.org/product/elementary-school-principals-professional-learning-report"
+                  target="_blank"
                   className="text-blue-600"
                 >
                   {" "}

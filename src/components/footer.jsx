@@ -38,6 +38,7 @@ function Footer() {
           <h3 className="text-lg font-bold mb-4">Contact Us</h3>
           <ul className="list-none">
             <li className="mb-2">Email: info@edspringsolutions.com</li>
+            <li className="mb-2">Phone: +1 (240) 319 8728</li>
           </ul>
         </div>
       </div>
