@@ -343,6 +343,14 @@ class BuidingComponents extends Component {
 <li className="my-2 rounded-md "> EdTech Integration  </li>
 
                 </div>
+
+     <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
+                  
+<li className="my-2 rounded-md "> EdTech Integration  </li>
+
+                </div>
+
               </div>
             </ul>
           </div>
