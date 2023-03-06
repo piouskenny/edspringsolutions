@@ -4,11 +4,12 @@ const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+  const mailaddress = "https://formsubmit.co/info@edspringsolutions.com";
+  
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const emailLink = `mailto:info@edspringsolutions.com?subject=EdSpring Solutions&body=Name:${name}%0D%0AEmail:${email}%0D%0AMessage:${message}%0D%0A`;
+    const emailLink = `mailto:${mailaddress}?subject=EdSpring Solutions&body=Name:${name}%0D%0AEmail:${email}%0D%0AMessage:${message}%0D%0A`;
 
     window.location.href = emailLink;
   };
