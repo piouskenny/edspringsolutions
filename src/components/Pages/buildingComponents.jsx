@@ -110,9 +110,7 @@ class BuidingComponents extends Component {
                   {" "}
                   according to a study conducted by the National Association of
                   Elementary School Principals (NAESP) and the Learning Policy
-                  Institute (LPI).
-                </a>
-                EdSpring Solutions can provide valuable support and coaching to
+                  Institute (LPI). </a> EdSpring Solutions can provide valuable support and coaching to
                 school leaders as they work to create equitable learning
                 outcomes for all students.
               </p>
@@ -325,19 +323,32 @@ class BuidingComponents extends Component {
                     {" "}
                     Special Education Compliance{" "}
                   </li>
-                  <li className="my-2 rounded-md "> Section 504 Compliance </li>
+                </div>
+                <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
+     <li className="my-2 rounded-md "> Section 504 Compliance </li>
                   <li className="my-2 rounded-md ">
                     {" "}
                     English Learners (EL) Compliance{" "}
                   </li>
-                </div>
-                <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
                   <li className="my-2 rounded-md "> Parent Engagement </li>
                   <li className="my-2 rounded-md ">
                     {" "}
                     Education in Fragile and Conflict Contexts{" "}
                   </li>
+
+<li className="my-2 rounded-md "> School Administration and Leadership </li>
+
                 </div>
+
+     <div className="col-span-1 rounded-lg  md:my-0 p-1">
+
+                  
+<li className="my-2 rounded-md "> EdTech Integration  </li>
+
+                </div>
+
               </div>
             </ul>
           </div>
