@@ -31,7 +31,8 @@ class ContactUsPage extends Component {
   handleSubmit(event) {
     event.preventDefault();
     const { name, email, message } = this.state;
-    const emailLink = `mailto:info@edspringsolutions.com?subject=EdSpring Solutions&body=Name:${name}%0D%0AEmail:${email}%0D%0AMessage:${message}%0D%0A`;
+    const mailaddress = "https://formsubmit.co/info@edspringsolutions.com";
+    const emailLink = `mailto:${mailaddress}?subject=EdSpring Solutions&body=Name:${name}%0D%0AEmail:${email}%0D%0AMessage:${message}%0D%0A`;
     window.location.href = emailLink;
   }
 
