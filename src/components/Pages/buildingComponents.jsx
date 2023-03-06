@@ -29,7 +29,6 @@ const cardsData = [
 ];
 
 class BuidingComponents extends Component {
-  
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -110,7 +109,9 @@ class BuidingComponents extends Component {
                   {" "}
                   according to a study conducted by the National Association of
                   Elementary School Principals (NAESP) and the Learning Policy
-                  Institute (LPI). </a> EdSpring Solutions can provide valuable support and coaching to
+                  Institute (LPI).{" "}
+                </a>{" "}
+                EdSpring Solutions can provide valuable support and coaching to
                 school leaders as they work to create equitable learning
                 outcomes for all students.
               </p>
@@ -325,8 +326,7 @@ class BuidingComponents extends Component {
                   </li>
                 </div>
                 <div className="col-span-1 rounded-lg  md:my-0 p-1">
-
-     <li className="my-2 rounded-md "> Section 504 Compliance </li>
+                  <li className="my-2 rounded-md "> Section 504 Compliance </li>
                   <li className="my-2 rounded-md ">
                     {" "}
                     English Learners (EL) Compliance{" "}
@@ -338,17 +338,15 @@ class BuidingComponents extends Component {
                     Education in Fragile and Conflict Contexts{" "}
                   </li>
 
-<li className="my-2 rounded-md "> School Administration and Leadership </li>
-
+                  <li className="my-2 rounded-md ">
+                    {" "}
+                    School Administration and Leadership{" "}
+                  </li>
                 </div>
 
-     <div className="col-span-1 rounded-lg  md:my-0 p-1">
-
-                  
-<li className="my-2 rounded-md "> EdTech Integration  </li>
-
+                <div className="col-span-1 rounded-lg  md:my-0 p-1">
+                  <li className="my-2 rounded-md "> EdTech Integration </li>
                 </div>
-
               </div>
             </ul>
           </div>
