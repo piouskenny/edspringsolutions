@@ -20,6 +20,7 @@ const About = () => {
                 className="h-[250px] w-fill image-border"
               />
             </div>
+            
             <div className="col-span-1">
               <p className="md:text-xl  text-gray-600 text-lg mt-6">
                 Improving student outcomes is a complex and multifaceted

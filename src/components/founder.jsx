@@ -11,8 +11,8 @@ const Founder = () => {
         <h2 className="text-blue-500 text-3xl mb-6  text-center md:text-start">
           Meet the <span className="my-3 ">Founder</span>
         </h2>
-        <div className="lg:grid lg:grid-cols-2 md:flex  items-center">
-          <div className="lg:col-span-1 lg:mt-0 text-center">
+        <div className="lg:grid gap-6 grid-cols-2   items-center">
+          <div className="col-span-1 lg:mt-0 text-center flex items-center justify-center ">
             <img
               src={DrTaiwo}
               alt="Founders Image"
@@ -21,7 +21,7 @@ const Founder = () => {
             h-full w-full shadow-2xl image-border my-10"
             />
           </div>
-          <div className="lg:col-span-1 ">
+          <div className="col-span-1 ">
             <p className="md:text-xl font-light text-gray-600 text-lg mt-12">
               Dr. Emmanuel Taiwo is an education leader and consultant with over
               15 years of dedicated experience promoting excellence and equity
